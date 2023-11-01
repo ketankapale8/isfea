@@ -1,0 +1,68 @@
+.blurBg{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    z-index: 999;
+    // background-color: #fff;
+    background-color: rgba(189,189,189,0.9);
+
+
+    // h4{
+    //     position: relative;
+    //     margin-top: 20%;
+    //     margin-left: 50%;
+    // }
+    // top: 50%;
+    // bottom: 0;
+    // left: 50%;
+    // right: 0;
+    // transform: translate(-50% ,-50%);
+
+}
+
+.modalContainer{
+    z-index: 999;
+    position: fixed;
+    top: 44%;
+    left: 40%;
+    bottom: 0;
+    height: auto;
+    padding-bottom: 10px;
+    // left: 50%;
+    transform: translate(-50% ,-50%);
+
+    .routes {
+        position: relative;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    height: auto;
+
+
+        
+        .link_text{
+            color: white;
+            
+            text-transform: uppercase;
+            text-decoration: none;
+            
+            font-weight: bold;
+            font-size: 1rem;
+            display: flex;
+            flex-direction: row;
+            .link{
+                gap: 20px;
+                color: black;
+                text-decoration: none;
+    
+            }
+        }
+      }
+   
+}

@@ -1,0 +1,57 @@
+import React from 'react';
+import './navbar.scss'
+import { Link } from 'react-router-dom';
+import logo from '../../../assets/ifseaneww.png'
+
+const Navbar = () => {
+  const navArr = [
+    
+    {
+      title : "Home",
+      link : "/"
+    }, 
+    {
+      title : "About Us",
+      link : "/about"
+    }, 
+    {
+      title : "Our Team",
+      link : "/organization"
+
+    },
+    {
+      title : "News",
+      link : "/news"
+
+    },
+    
+    {
+      title : "Contact Us",
+      link : "/contactus"
+
+    }
+  ]
+  return (
+    <nav className='navbar'>
+      <div className="logoC">
+        <img src={logo} alt="" className='logoImg'/>
+      </div>
+      <div className="rest">
+      {navArr.map((item,idx)=>{
+        return(
+          <div key={idx} style={{textTransform:'none', textDecoration:'none'}}>
+            <Link to={`${item.link}`} style={{textDecoration:'none', textTransform:'none'}}>
+              <div className='list' style={{textDecoration:'none'}}>{item.title}</div>
+            </Link>
+          </div>
+
+        )
+      })}
+
+      </div>
+
+    </nav>
+  )
+}
+
+export default Navbar

@@ -1,0 +1,182 @@
+.mission{
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: #e9ebdc;
+
+    // background: radial-gradient(circle at top, #fdfcd8 , #d7d8fd);
+
+
+    .missionContainer{
+        width: inherit;
+        height: inherit;
+        display: flex;
+        flex-direction: row;
+        margin: 100px 120px;
+        align-items: center;
+        justify-content: center;
+        // border: 1px solid black;
+        border-radius: 10px;
+        
+        .boxesContainer{
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            padding-top: 40px;
+            .boxes{
+                width: 260px;
+                height: auto;
+                padding-bottom: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 0px;
+                border-bottom-left-radius: 40px;
+                // border-radius: 40px;
+
+                background-color: white;
+                
+    
+                .top{
+                    .missionImg{
+                        width: 100%;
+                        height: 190px;
+                        object-fit: fill;
+                        // object-fit: cover;
+                    }
+                }
+
+                .bottom{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    align-items: center;
+                    justify-content: center;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    
+                    
+                    .title{
+                        padding-top: 5px;
+                        font-weight: bold;
+                        font-size: 1.1rem;
+                    }
+                    .desc{
+                        font-size: 0.8rem;
+                        // font-weight: 400;
+                        text-align: justify;
+                    }
+
+                    button{
+                        margin-top: 5px;
+                        margin-left: 30px;
+                        width: 120px;
+                        height: 40px;
+                        font-size: 0.9rem;
+                        // background-color: #ee334e;
+                        color: white;
+                        cursor: pointer;
+                        border: 0.6px solid transparent;
+                        border-radius: 14px;
+                        
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media (min-width : 320px) and (max-width :760px){
+    .mission{
+        width: 100% !important;
+        height: auto;
+        padding-bottom: 0px !important;
+        background-color: none !important;
+    
+        // background: radial-gradient(circle at top, #fdfcd8 , #d7d8fd);
+    
+    
+        .missionContainer{
+            width: auto !important;
+            height: inherit;
+            display: flex;
+            flex-direction: column;
+            margin: 0px 0px;
+            align-items: center;
+            justify-content: center;
+            // border: 1px solid black;
+            border-radius: 3px;
+            
+            .boxesContainer{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0px;
+                padding-top: 0px;
+                .boxes{
+                    width: auto;
+                    height: auto;
+                    padding-bottom: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    border-radius: 10px;
+                    
+        
+                    .top{
+                        display: flex;
+                        align-items: center;
+                        .missionImg{
+                            padding-right: 0%;
+                            align-self: center;
+                            width: 100%;
+                            height: 260px;
+                            // object-fit: cconover;
+                        }
+                    }
+    
+                    .bottom{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        align-items: center;
+                        // justify-content: center;
+                        padding: 0px 0px;
+                        max-width: 100%;
+                        
+                        .title{
+                            font-weight: bold;
+                            font-size: 1rem;
+                        }
+                        .desc{
+                            margin: 0px 30px;
+                                font-size: 0.6rem;
+
+                            // font-weight: 400;
+                            text-align: justify;
+                        }
+
+                        button{
+                            
+                            margin-top: 5px;
+                            margin-left: 60%;   
+                            width: 90px;
+                            height: 40px;
+                            font-size: 0.9rem;
+                            // background-color: #ee334e;
+                            color: white;
+                            cursor: pointer;
+                            border: 0.6px solid transparent;
+                            border-radius: 14px;
+                            
+                        }
+                    }
+                }
+            }
+    
+    
+        }
+    }
+
+}
