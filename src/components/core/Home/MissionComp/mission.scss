@@ -87,7 +87,104 @@
     }
 }
 
-@media (min-width : 320px) and (max-width :760px){
+@media (min-width : 835px) and (max-width :1800px){
+    .mission{
+        width: 100% !important;
+        height: 600px ;
+        padding-bottom: 0px !important;
+        background-color: none !important;
+    
+        // background: radial-gradient(circle at top, #fdfcd8 , #d7d8fd);
+    
+    
+        .missionContainer{
+            width: inherit;
+            height: inherit;
+            display: flex;
+            flex-direction: row !important;
+            margin: 20px 0px;
+            align-items: center;
+            justify-content: center;
+            // border: 1px solid black;
+            border-radius: 3px;
+            
+            .boxesContainer{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-left: 20px;
+                padding-right: 20px ;
+                gap: 20px;
+                padding-top: 0px;
+                .boxes{
+                    width: 250px;
+                    height: auto;
+                    padding-bottom: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    border-bottom-left-radius: 40px ;
+                    gap: 20px;
+                    // border-radius: 10px !important;
+                    
+        
+                    .top{
+                        display: flex;
+                        align-items: center;
+                        .missionImg{
+                            padding-right: 0%;
+                            align-self: center;
+                            width: 100%;
+                            height: 260px;
+                            // object-fit: cconover;
+                        }
+                    }
+    
+                    .bottom{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        align-items: center;
+                        // justify-content: center;
+                        padding: 0px 0px;
+                        max-width: 100%;
+                        
+                        .title{
+                            font-weight: bold;
+                            font-size: 1rem;
+                        }
+                        .desc{
+                            margin: 0px 30px;
+                                font-size: 0.6rem;
+
+                            // font-weight: 400;
+                            text-align: justify;
+                        }
+
+                        button{
+                            
+                            margin-top: 5px;
+                            margin-left: 60%;   
+                            width: 90px;
+                            height: 40px;
+                            font-size: 0.9rem;
+                            // background-color: #ee334e;
+                            color: white;
+                            cursor: pointer;
+                            border: 0.6px solid transparent;
+                            border-radius: 14px;
+                            
+                        }
+                    }
+                }
+            }
+    
+    
+        }
+    }
+
+}
+
+@media (min-width : 320px) and (max-width :834px){
     .mission{
         width: 100% !important;
         height: auto;
