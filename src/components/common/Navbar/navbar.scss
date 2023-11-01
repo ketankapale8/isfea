@@ -46,3 +46,55 @@
 
 
 }
+
+@media (min-width : 771px) and (max-width :1800px){
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        // align-items: center;
+        // justify-content: center;
+        gap : 0px;
+        background-color: white;
+        border-bottom: 2px solid transparent;
+        border-bottom-color: #929292;
+    
+        .logoC{
+            .logoImg{
+                width: 190px;
+                height: 130px;
+            }
+        }
+    
+        .rest{
+    
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 40px;
+            gap: 25px;
+            background-color: white;
+        
+            .list{
+                color: black;
+                // color: darkgray;
+                text-transform: none;
+                font-size: 1rem;
+                width: 100px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                // text-transform: uppercase;
+        
+            }
+        
+            .list:hover{
+                color: black;
+            }
+        }
+    
+       
+    
+    
+    }
+}

@@ -83,12 +83,101 @@ gap: 10px;
     }
 }
 
+@media (min-width : 761px) and (max-width :1800px){
+
+    .footer{
+        width: auto;
+        height: auto;
+        // padding-bottom: 20px;
+        background-color: #0081c8;
+        color: white;
+    
+        .footerContainer{
+            display: flex;
+            flex-direction: row !important;
+            padding: 20px 100px;
+            align-items: center;
+            justify-content: space-around;
+            text-align: start;
+    
+            .left{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                .logoImg{
+                    width: 150px;
+                    height: 130px;
+                }
+            }
+    
+            .middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    line-height: 0px;
+    
+    h3{
+        font-size: 1rem;
+        gap: 1px;
+    }
+            }
+    
+            .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+    .footerHeading{
+        padding-top: 50px;
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    
+    .footerDesc{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+        padding-top: 20px;
+        width: 150px;
+    
+        .icons{
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            
+        }
+    
+    }
+            }
+        }
+    
+        .bottomStrip{
+            display: flex;
+            // display: none;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+    
+            
+        }
+    }
+    
+
+}
+
 @media (min-width : 320px) and (max-width :760px){
 
     .footer{
         width: auto;
         height: auto;
-        padding-bottom: 20px;
+        // padding-bottom: 20px;
         background-color: #0081c8;
         color: white;
     
@@ -132,7 +221,7 @@ gap: 10px;
     
     .footerHeading{
         padding-top: 50px;
-        color: black;
+        color: white;
         font-weight: bold;
         font-size: 1rem;
     }
@@ -159,7 +248,7 @@ gap: 10px;
         }
     
         .bottomStrip{
-            display: none;
+            // display: none;
             flex-direction: column;
             align-items: center;
             justify-content: space-around;

@@ -33,6 +33,36 @@
     100% {transform: translatex(-1000%)}
   }
 
+  @media (min-width : 761px) and (max-width :1800px){
+
+    .slider {
+      background-color: whitesmoke;
+    width: auto !important;
+
+      .SponsorTitle{
+          padding-left: 37%;
+          font-size: 2rem;
+          font-weight: bold;
+      }
+      img {
+          width: 60px;
+          height: 60px;
+          animation: scroll 60s linear infinite;
+        }
+      margin-top: 0px;
+      padding: 4em 1em;
+      .slide-track {
+          padding-top: 60px;
+          width: 100%;
+          display: flex;
+          gap: 3em;
+          overflow: hidden;
+        }
+    }
+    
+
+  }
+
 
   @media (min-width : 320px) and (max-width :760px){
 
@@ -41,7 +71,7 @@
     width: auto !important;
 
       .SponsorTitle{
-          padding-left: 20%;
+          padding-left: 35%;
           font-size: 2rem;
           font-weight: bold;
       }

@@ -37,7 +37,7 @@ const Footer = () => {
 
       </div>
       <div className="bottomStrip">
-        <h3 className='btms'>info@ifsea.org</h3>
+        <h3 className='btms'>info@isfea.org</h3>
         <h3 className='btms'>ISFEA</h3>
         <h3 className='btms'>© 2023 | All Rights Reserved</h3>
 
