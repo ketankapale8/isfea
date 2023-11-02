@@ -33,9 +33,12 @@ const Navbar = () => {
   ]
   return (
     <nav className='navbar'>
-      <div className="logoC">
-        <img src={logo} alt="" className='logoImg'/>
-      </div>
+      <Link to="/" style={{color:"inherit", textDecoration:'none'}}>
+        <div className="logoC">
+          <img src={logo} alt="" className='logoImg'/>
+        </div>
+      
+      </Link>
       <div className="rest">
       {navArr.map((item,idx)=>{
         return(
