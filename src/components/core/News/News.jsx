@@ -3,6 +3,8 @@ import './news.scss'
 import Sponsors from '../Sponsors/Sponsors'
 import BannerComp from '../../common/BannerComp/BannerComp';
 import BannerImg from '../../../assets/bgremoved/bg4.png'
+import {motion} from 'framer-motion';
+
 // import BannerComp1 from '../../common/BannerComp1/BannerComp';
 
 const News = () => {
@@ -28,11 +30,15 @@ const News = () => {
       {newsArr.map(item=>{
         return (
           <>
-            <div className="newsBox">
+            <motion.div className="newsBox"
+                  initial={{x : -200}}
+                  animate={{x : -10}}
+                  transition={{ delay :0.3 , duration : 1 , type:'spring' , stiffness : 120}}
+            >
               <div className="title">{item.title}</div>
               <hr />
               <p className="desc">{item.desc}</p>
-            </div>
+            </motion.div>
           
           </>
         )

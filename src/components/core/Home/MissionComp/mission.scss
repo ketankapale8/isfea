@@ -59,7 +59,31 @@
                         padding-top: 5px;
                         font-weight: bold;
                         font-size: 1.1rem;
+                padding: 5px 10px;
+
+                        display: inline-block;
+                    position: relative;
                     }
+
+                    .title::after {
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        transform: scaleX(0);
+                        border-radius: 15px;
+                        height: 0.15em;
+                        bottom: 0;
+                        left: 0;
+                        background: #0081cb;
+                        transform-origin: bottom right;
+                        transition: transform 0.25s ease-out;
+                      }
+                      .title:hover::after {
+                        transform: scaleX(1);
+                        transform-origin: bottom left;
+                      }
+
+                    
                     .desc{
                         font-size: 0.8rem;
                         // font-weight: 400;
@@ -189,7 +213,7 @@
         width: 100% !important;
         height: auto;
         padding-bottom: 0px !important;
-        background-color: none !important;
+        background-color: white !important;
     
         // background: radial-gradient(circle at top, #fdfcd8 , #d7d8fd);
     

@@ -4,7 +4,9 @@ import One from '../../../../assets/teamMembers/1.jpg'
 import Two from '../../../../assets/teamMembers/2.jpg'
 import Three from '../../../../assets/teamMembers/3.jpeg'
 import Four from '../../../../assets/teamMembers/4.jpg'
-import Five from '../../../../assets/teamMembers/5.jpg'
+import Five from '../../../../assets/teamMembers/5.jpg';
+import {motion} from 'framer-motion'
+
 
 
 const Team = ({title , teamArr}) => {
@@ -18,16 +20,23 @@ const Team = ({title , teamArr}) => {
                 {teamArr.map((item, idx)=>{
                     return (
                         <>
-                        <div className="teamMemberBox" key={idx}>
-                            <img src={item.img} alt="" className='teamMemberImg' />
+                        <motion.div className="teamMemberBox" key={idx}
+                            whileHover={{ scale : 1.1 , originX: 0}}
+                        >
+                            <img 
+                                
+                            src={item.img} alt="" className='teamMemberImg' />
                             <div className="desc">
-                            <h3 className="teamMemberTitle">{item.title}</h3>
+                            <motion.h3
+                                whileHover={{scale:1.1 , originX: 0, color:'#0d6efd'}}
+                                transition={{type:'string', stiffness: 300}}
+                            className="teamMemberTitle">{item.title}</motion.h3>
                             <p className='position'>{item.position}</p>
                             <p className='position'>{item.location}</p>
 
 
                             </div>
-                        </div>
+                        </motion.div>
                         
                         </>
                     )

@@ -30,8 +30,30 @@
                 .title{
                     font-weight: bold;
                     font-size: 1.2rem;
+                    display: inline-block;
+                    position: relative;
+                padding: 5px 10px;
+    
     
                 }
+    
+                .title::after {
+                    content: '';
+                    position: absolute;
+                    width: 90%;
+                    transform: scaleX(0);
+                    border-radius: 15px;
+                    height: 0.15em;
+                    bottom: 0;
+                    left: 0;
+                    background: #fec02b;
+                    transform-origin: bottom right;
+                    transition: transform 0.25s ease-out;
+                  }
+                  .title:hover::after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                  }
     
                 .desc{
                     font-size: 1rem;

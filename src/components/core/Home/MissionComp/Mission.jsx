@@ -22,7 +22,7 @@ import bgRem from '../../../../assets/mission/bgRem.png'
 import bgRem1 from '../../../../assets/mission/bgRem1.png'
 import bgRem2 from '../../../../assets/mission/bgRem2.png'
 
-
+import {motion} from 'framer-motion'
 
 
 export const Mission = () => {
@@ -49,7 +49,11 @@ export const Mission = () => {
   return (
     <div className='mission'>
         <div className="missionContainer">
-          <div className="boxesContainer">
+          <motion.div className="boxesContainer"
+            initial={{x : -200}}
+            animate={{x : -10}}
+            transition={{ delay :0.3 , duration : 1 }}
+          >
           {missionArr.map((item,idx)=>{
             return (
               <div className='boxes' key={idx}>
@@ -66,7 +70,7 @@ export const Mission = () => {
             )
           })}
 
-          </div>
+          </motion.div>
         </div>
     </div>
   )

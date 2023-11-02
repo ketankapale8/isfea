@@ -15,6 +15,8 @@ import One from '../../../assets/newassets/1.jpeg'
 import Two from '../../../assets/newassets/6.jpg'
 import Three from '../../../assets/newassets/7.jpg'
 import DummySlider2 from '../../common/Slider/Slider';
+import Counter from '../../common/Counter/Counter';
+import MapComp from '../../common/MapComp/MapComp';
 
 
 
@@ -41,7 +43,9 @@ const Home = () => {
 
 
        <Mission/>
+       {/* <MapComp/> */}
        <Sponsors/>
+       <Counter/>
     </div>
     
   )

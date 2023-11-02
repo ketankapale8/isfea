@@ -105,8 +105,8 @@ export default function DummySlider2() {
         <SwiperSlide>
         <div className='main'>
         <div className='title'>
-                <h2>Unleashing Transformation </h2>
-                {/* <h2 >Possibilities into Reality!</h2> */}
+                <h2>Unleashing  </h2>
+                <h2 >Transformation</h2>
 
             </div>
 

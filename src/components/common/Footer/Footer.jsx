@@ -5,6 +5,7 @@ import six from '../../../assets/footer/6.png';
 import seven from '../../../assets/footer/7.png';
 import eight from '../../../assets/footer/8.png';
 import nine from '../../../assets/footer/9.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -14,11 +15,19 @@ const Footer = () => {
             <img src={logo} alt="logoFooter" className='logoImg'/>
         </div>
         <div className="middle">
-          <h3>About Us</h3>
+          <Link to='/about' style={{color:'inherit' , textDecoration:'none'}}>
+            <h3>About Us</h3>
+          </Link>
+          <Link to='/news' style={{color:'inherit' , textDecoration:'none'}}>
           <h3>News</h3>
+          </Link>
+          <Link to='/organization' style={{color:'inherit' , textDecoration:'none'}}>
           <h3>Organization</h3>
-          <h3>News & Media</h3>
+          </Link>
+          <Link to='/contactus' style={{color:'inherit' , textDecoration:'none'}}>
           <h3>Privacy Policy</h3>
+          </Link>
+          {/* <h3>News & Media</h3> */}
         </div>
         
         <div className="right">

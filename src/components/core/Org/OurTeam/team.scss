@@ -27,6 +27,9 @@
                 align-items: center;
                 justify-content: center;
                 gap: 10px;
+                border: 1px solid transparent;
+             
+                border-radius: 0px;
 
                 .teamMemberImg{
                     width: 120px;
@@ -36,10 +39,10 @@
 
                 }
 
-                .teamMemberImg:hover{
-                    border: 3px solid yellow;
-                    transform: translate(0.3s ease)
-                }
+                // .teamMemberImg:hover{
+                //     border: 3px solid yellow;
+                //     transform: translate(0.3s ease)
+                // }
 
                 .desc{
                     line-height: 4px;

@@ -2,7 +2,9 @@ import React from 'react';
 import './contact.scss';
 import img from '../../../assets/contactus/2.jpeg'
 import BannerComp from '../../common/BannerComp/BannerComp';
-import BannerImg from '../../../assets/bgremoved/bg1.png'
+import BannerImg from '../../../assets/bgremoved/bg1.png';
+import {motion} from 'framer-motion';
+
 // import BannerComp1 from '../../common/BannerComp1/BannerComp';
 const Contact = () => {
   return (
@@ -11,11 +13,19 @@ const Contact = () => {
 
     <div className='contactleft'>
         <div className="contactLeftContainer">
-            <div className="left">
+            <motion.div className="left"
+              initial={{x : -200}}
+              animate={{x : -10}}
+              transition={{ delay :0.3 , duration : 1 , type:'spring' , stiffness : 120}}
+            >
                 <img src={img} alt="" className='imgContainer'/>
-            </div>
+            </motion.div>
 
-            <div className="right">
+            <motion.div className="right"
+               initial={{x : 200}}
+               animate={{x : -10}}
+               transition={{ delay :0.3 , duration : 1 , type:'spring' , stiffness : 120}}
+            >
              <div className="rightContainer">
               <div className="items">
               <h2>Name:</h2>
@@ -45,7 +55,7 @@ const Contact = () => {
 
              </div>
 
-            </div>
+            </motion.div>
         </div>
     </div>
     </div>
