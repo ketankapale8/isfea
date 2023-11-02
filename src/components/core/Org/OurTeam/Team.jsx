@@ -28,7 +28,7 @@ const Team = ({title , teamArr}) => {
                             src={item.img} alt="" className='teamMemberImg' />
                             <div className="desc">
                             <motion.h3
-                                whileHover={{scale:1.1 , originX: 0, color:'#0d6efd'}}
+                                whileHover={{scale:1.05 , originX: 0, color:'#0d6efd'}}
                                 transition={{type:'string', stiffness: 300}}
                             className="teamMemberTitle">{item.title}</motion.h3>
                             <p className='position'>{item.position}</p>

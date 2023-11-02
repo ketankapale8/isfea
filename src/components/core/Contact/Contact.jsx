@@ -45,7 +45,7 @@ const Contact = () => {
               </div>
 
               <div className="items">
-              <h2>Subject:</h2>
+              <h2>Query:</h2>
               <textarea placeholder='Enter your query' />
 
               </div>

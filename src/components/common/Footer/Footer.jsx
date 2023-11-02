@@ -25,7 +25,7 @@ const Footer = () => {
           <h3>Organization</h3>
           </Link>
           <Link to='/contactus' style={{color:'inherit' , textDecoration:'none'}}>
-          <h3>Privacy Policy</h3>
+          <h3>Contact Us</h3>
           </Link>
           {/* <h3>News & Media</h3> */}
         </div>

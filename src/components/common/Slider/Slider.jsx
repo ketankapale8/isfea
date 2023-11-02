@@ -9,8 +9,8 @@ import './styles.scss';
 import { Autoplay, Pagination, Navigation, Keyboard, Mousewheel } from 'swiper/modules';
 import one from '../../../assets/backgrounds/bg35.jpg'
 import two from '../../../assets/Banner2.jpg'
-import three from '../../../assets/backgrounds/bg41.jpg'
-import four from '../../../assets/backgrounds/bg39.jpg'
+import three from '../../../assets/backgrounds/bg42.jpg'
+import four from '../../../assets/backgrounds/bg43.jpg'
 
 
 
@@ -23,7 +23,7 @@ export default function DummySlider2() {
         centeredSlides={true}
         mousewheel={true}
         autoplay={{
-          delay: 4500,
+          delay: 5500,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -41,7 +41,7 @@ export default function DummySlider2() {
            <div>
             <div className='title'>
                 <h2>Unlocking Milestones </h2>
-                <h2>Achieving Capabilities</h2>
+                <h2>Achieving Capabilities.</h2>
             </div>
 
             <div className='desc'>
@@ -62,7 +62,7 @@ export default function DummySlider2() {
         <div className='main'>
         <div className='title'>
                 <h2>Achieving New Heights</h2>
-                <h2 >Making Breakthroughs</h2>
+                <h2 >Making Breakthroughs.</h2>
 
             </div>
 
@@ -86,8 +86,8 @@ export default function DummySlider2() {
 <img src={three} />
 
 <div className='title'>
-        <h2>A Brigde to a </h2>
-        <h2 > Brighter future.</h2>
+        <h2>An initiative towards </h2>
+        <h2 > Healthy future.</h2>
 
     </div>
 
@@ -105,8 +105,8 @@ export default function DummySlider2() {
         <SwiperSlide>
         <div className='main'>
         <div className='title'>
-                <h2>Unleashing  </h2>
-                <h2 >Transformation</h2>
+                <h2>Transformation  </h2>
+                <h2 >Unleashed.</h2>
 
             </div>
 
