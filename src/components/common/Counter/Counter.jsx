@@ -5,6 +5,9 @@ import logo from '../../../assets/ifseaneww.png'
 import CounterBannerImg from '../../../assets/backgrounds/bg21edit.gif'
 
 const Counter = () => {
+  // const date = new Date('Nov 2 2023');
+  var seconds = new Date('Nov 2 2023').getTime() / 1000;
+console.log(seconds) //1440516958
     const renderer = ({ days , hours, minutes, seconds, completed }) => {
         if (completed) {
           // Render a complete state
