@@ -7,10 +7,10 @@ import 'swiper/css/navigation';
 
 import './styles.scss';
 import { Autoplay, Pagination, Navigation, Keyboard, Mousewheel } from 'swiper/modules';
-import one from '../../../assets/backgrounds/bg35.jpg'
+import one from '../../../assets/backgrounds/bg46.jpg'
 import two from '../../../assets/Banner2.jpg'
-import three from '../../../assets/backgrounds/bg42.jpg'
-import four from '../../../assets/backgrounds/bg43.jpg'
+import three from '../../../assets/backgrounds/bg45.jpg'
+import four from '../../../assets/backgrounds/bg44.jpg'
 
 
 
@@ -86,8 +86,8 @@ export default function DummySlider2() {
 <img src={three} />
 
 <div className='title'>
-        <h2>An initiative towards </h2>
-        <h2 > Healthy future.</h2>
+        <h2>Competing for  </h2>
+        <h2 > a common goal.</h2>
 
     </div>
 
@@ -105,8 +105,8 @@ export default function DummySlider2() {
         <SwiperSlide>
         <div className='main'>
         <div className='title'>
-                <h2>Transformation  </h2>
-                <h2 >Unleashed.</h2>
+                <h2>Quenching your </h2>
+                <h2 >Milestone.</h2>
 
             </div>
 

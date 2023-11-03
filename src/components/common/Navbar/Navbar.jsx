@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useState , useEffect} from 'react';
 import './navbar.scss'
 import { Link } from 'react-router-dom';
 // import logo from '../../../assets/ifseaneww.png'
@@ -6,6 +6,15 @@ import logo from '../../../assets/newLogo/One.png';
 
 
 const Navbar = () => {
+  const [navbarChange ,setNavbarChange] = useState(false);
+  const changeBackground = () =>{
+    if(window.scrollY >= 85){
+      // console.log(window.scrollY)
+      setNavbarChange(true)
+    }else {
+      setNavbarChange(false)
+    }
+}
   const navArr = [
     
     {

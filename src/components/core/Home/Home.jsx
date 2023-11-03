@@ -16,6 +16,7 @@ import Two from '../../../assets/newassets/6.jpg'
 import Three from '../../../assets/newassets/7.jpg'
 import DummySlider2 from '../../common/Slider/Slider';
 import Counter from '../../common/Counter/Counter';
+import Slideshow from '../../common/newSlider/NewSlider';
 // import MapComp from '../../common/MapComp/MapComp';
 
 
@@ -23,7 +24,8 @@ import Counter from '../../common/Counter/Counter';
 const Home = () => {
   return (
     <div className='home'>
-      <DummySlider2/>
+      <Slideshow/>
+      {/* <DummySlider2/> */}
       {/* <BannerComp img={BannerImgNew}/> */}
       <HomeLeft 
        title={"Promoting Athletic and Academic Excellence"} desc={"ISFEA envisions a world where sports and education are seamlessly intertwined, ensuring that individuals not only excel in their chosen sports but also receive a well-rounded education"}

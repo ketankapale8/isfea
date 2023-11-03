@@ -42,14 +42,14 @@ console.log(seconds) //1440516958
             <div className="counterTextContainer">
                 <div className="titleContainer">
                     <h3 className='counterCity'>Zürich , Switzerland</h3>
-                    <h3 className='counterDay'>10th February , 2024</h3>
+                    <h3 className='counterDay'>Summer , 2024</h3>
     
                 </div>
                 <div className="logoContainer">
                     <img className='logoImg' src={logo}/>
                 </div>
                 <div className="counterDisplayContainer">
-                <Countdown date={Date.now() + 8640000000 } renderer={renderer} />
+                <Countdown date={Date.now() + 15552000000 } renderer={renderer} />
                 </div>
             </div>
 

@@ -8,6 +8,14 @@ import nine from '../../../assets/footer/9.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  function sendEmail() 
+{
+    window.location = "mailto:support@isfea.com";
+}
+function sendEmailInfo() 
+{
+    window.location = "mailto:info@isfea.com";
+}
   return (
     <div className='footer'>
       <div className="footerContainer">
@@ -32,22 +40,36 @@ const Footer = () => {
         
         <div className="right">
         <div className="footerHeading">
-                       Social Network
+                      <p className='footerLogo' style={{fontSize:'1.3rem'}}>
+                       ISFEA
+
+                      </p>
+                      <p>
+                      Media Relations
+
+                      </p>
+                      <p>
+                      Mythenquai 2
+                      </p>
+                      <p>
+8002 Zurich, Switzerland 
+
+                      </p>
+                      <p onClick={()=>sendEmail()} className='email'>support@isfea.org</p>
                     </div>
                     <div className="footerDesc">
-                        <img className='icons' src={six}/>
+                        {/* <img className='icons' src={six}/>
                         <img className='icons' src={seven}/>
                         <img className='icons' src={eight}/>
-                        <img className='icons' src={nine}/>
-
+                        <img className='icons' src={nine}/> */}
 
                     </div>
         </div>
 
       </div>
       <div className="bottomStrip">
-        <h3 className='btms'>info@isfea.org</h3>
-        <h3 className='btms'>ISFEA</h3>
+        <h3 onClick={()=> sendEmailInfo()} className='btms' style={{cursor:'pointer'}}>info@isfea.org</h3>
+        {/* <h3 className='btms'>ISFEA</h3> */}
         <h3 className='btms'>© 2023 | All Rights Reserved</h3>
 
       </div>

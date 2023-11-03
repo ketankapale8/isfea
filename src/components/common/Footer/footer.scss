@@ -36,18 +36,59 @@ line-height: 10px;
 h3{
     font-size: 1rem;
     gap: 4px;
+    letter-spacing: 0.6px;
+
 }
         }
 
         .right{
 display: flex;
 flex-direction: column;
-gap: 10px;
+gap: 0px;
 
 .footerHeading{
     color: white;
     font-weight: bold;
     font-size: 1rem;
+    line-height: 5px;
+    
+    
+    .footerLogo{
+        padding: 10px 0px;
+        font-size: 1.5rem;
+        display: inline-block;
+        position: relative;
+  text-decoration: none;
+  letter-spacing: 2px;
+
+    }
+
+    .footerLogo::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        border-radius: 5px;
+        height: 0.15em;
+        bottom: 0;
+        left: 0;
+        background: #fec02b;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      .footerLogo:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+    p{
+        letter-spacing: 0.6px;
+        font-size: 0.8rem;
+    }
+
+    .email{
+        cursor: pointer;
+
+    }
 }
 
 .footerDesc{
@@ -64,6 +105,11 @@ gap: 10px;
         border-radius: 4px;
         color: white;
     }
+
+    // h3{
+    //     font-size: 1rem;
+    //     gap: 4px;
+    // }
 
 }
         }
@@ -135,15 +181,16 @@ gap: 10px;
     .footerHeading{
         padding-top: 50px;
         color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         font-weight: bold;
         font-size: 1rem;
     }
     
     .footerDesc{
         color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: row;
         gap: 10px;
         padding-top: 20px;
@@ -226,13 +273,16 @@ gap: 10px;
         color: white;
         font-weight: bold;
         font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  letter-spacing: 2px;
+
+        justify-content: center;
     }
     
     .footerDesc{
         color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: row;
         gap: 10px;
         padding-top: 20px;
