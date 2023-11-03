@@ -27,6 +27,7 @@
                 padding-right: 50px;
                 position: absolute;
                 top: 150px;
+                gap: 30px;
                 // margin-left: 30%;
                 min-width: 800px;
                 height: 170px;
@@ -43,6 +44,8 @@
                     display: flex;
                     flex-direction: column;
                     line-height: 5px;
+                    align-items: center;
+
     
                     .counterCity{
                         color: #0081c8;
@@ -59,8 +62,9 @@
     
                 .logoContainer{
                     .logoImg{
-                        width: 250px;
-                        height: 160px;
+                        width: 140px;
+                        height: 130px;
+                        object-fit: contain;
                     }
                 }
     
@@ -176,6 +180,7 @@
                     padding-right: 50px;
                     position: absolute;
                     top: 150px;
+                    gap: 30px;
                     // margin-left: 30%;
                     min-width: 550px;
                     height: 170px;
@@ -192,6 +197,8 @@
                         display: flex;
                         flex-direction: column;
                         line-height: 5px;
+                        align-items: center;
+
         
                         .counterCity{
                             color: #0081c8;
@@ -325,9 +332,10 @@
                     padding-right: 50px;
                     position: absolute;
                     top: 40px;
+                    gap: 0px !important;
                     // margin-left: 30%;
                     min-width: 200px;
-                    height: 270px;
+                    height: 320px;
                     border: 1px solid transparent;
                     border-top-left-radius: 90px;
                     border-top-right-radius: 90px;
@@ -341,6 +349,8 @@
                         display: flex;
                         flex-direction: column;
                         line-height: 5px;
+                        align-items: center;
+
         
                         .counterCity{
                             color: #0081c8;
@@ -357,8 +367,8 @@
         
                     .logoContainer{
                         .logoImg{
-                            width: 100px;
-                            height: 100px;
+                            width: 60px;
+                            height: 60px;
                         }
                     }
         
@@ -457,7 +467,7 @@
     
             .counterBgimg{
                 width: inherit;
-                height: 550px !important;
+                height: 650px !important;
                 object-fit: cover;
             }
     
@@ -474,10 +484,10 @@
                     padding-left: 50px;
                     padding-right: 50px;
                     position: absolute;
-                    top: 140px;
+                    top: 100px;
                     // margin-left: 30%;
                     min-width: 200px;
-                    height: 270px;
+                    height: 370px;
                     border: 1px solid transparent;
                     border-top-left-radius: 90px;
                     border-top-right-radius: 90px;
@@ -491,6 +501,7 @@
                         display: flex;
                         flex-direction: column;
                         line-height: 5px;
+                        align-items: center;
         
                         .counterCity{
                             color: #0081c8;

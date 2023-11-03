@@ -1,7 +1,7 @@
 import React from 'react';
 import './counter.scss';
 import Countdown from "react-countdown";
-import logo from '../../../assets/ifseaneww.png'
+import logo from '../../../assets/newLogo/One.png';
 import CounterBannerImg from '../../../assets/backgrounds/bg21edit.gif'
 
 const Counter = () => {
