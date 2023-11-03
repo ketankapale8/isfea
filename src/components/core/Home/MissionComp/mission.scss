@@ -24,7 +24,7 @@
             gap: 50px;
             padding-top: 40px;
             .boxes{
-                width: 260px;
+                width: 370px;
                 height: auto;
                 padding-bottom: 20px;
                 display: flex;
@@ -111,7 +111,7 @@
     }
 }
 
-@media (min-width : 835px) and (max-width :1800px){
+@media (min-width : 835px) and (max-width :1450px){
     .mission{
         width: 100% !important;
         height: 600px ;
@@ -126,7 +126,7 @@
             height: inherit;
             display: flex;
             flex-direction: row !important;
-            margin: 20px 0px;
+            margin: 20px 20px;
             align-items: center;
             justify-content: center;
             // border: 1px solid black;
@@ -141,7 +141,7 @@
                 gap: 20px;
                 padding-top: 0px;
                 .boxes{
-                    width: 250px;
+                    width: 310px;
                     height: auto;
                     padding-bottom: 20px;
                     display: flex;

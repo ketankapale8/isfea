@@ -14,17 +14,19 @@
 
         .homeLeftContainer{
             display: flex;
-            margin: 10px 300px;
+            margin: 10px 150px;
             padding: 20px 150px;
     
             flex-direction: row;
             gap: 80px;
+
             .right{
                 padding-top: 30px;
                 display: flex;
                 flex-direction: column;
+                text-align: start;
                 
-                max-width: 550px;
+                max-width: 750px;
                 gap: 0px;
     
                 .title{
@@ -56,7 +58,7 @@
                   }
     
                 .desc{
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                     text-align: justify;
     
                 }

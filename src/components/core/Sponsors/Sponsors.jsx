@@ -9,12 +9,12 @@ import Six from '../../../assets/sponsors/6.png';
 import Seven from '../../../assets/sponsors/7.png';
 
 
-const Sponsors = () => {
+const Sponsors = ({title}) => {
   return (
     <>
       <div className="slider">
 
-        <div className='SponsorTitle'> Our Sponsors</div>
+        <div className='SponsorTitle'>{title}</div>
   <div className="slide-track">
     <div className="slide">
       <img src={One} alt="asas"/>

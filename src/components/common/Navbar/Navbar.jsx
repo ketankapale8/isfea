@@ -1,7 +1,9 @@
 import React from 'react';
 import './navbar.scss'
 import { Link } from 'react-router-dom';
-import logo from '../../../assets/ifseaneww.png'
+// import logo from '../../../assets/ifseaneww.png'
+import logo from '../../../assets/newLogo/One.png';
+
 
 const Navbar = () => {
   const navArr = [
