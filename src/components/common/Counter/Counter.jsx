@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './counter.scss';
 import Countdown from "react-countdown";
 import logo from '../../../assets/newLogo/One.png';
 import CounterBannerImg from '../../../assets/backgrounds/bg21edit.gif'
 
 const Counter = () => {
-  // const date = new Date('Nov 2 2023');
-  var seconds = new Date('Nov 2 2023').getTime() / 1000;
-console.log(seconds) //1440516958
+  // var today = new Date();
+// var priorDate = new Date(new Date().setDate(today.getDate() - 3));
+// console.log(priorDate.getTime());
+let [today , setToday] = useState(new Date('4 Nov 2023'));
+let [date , setDate] = useState(new Date(new Date().setDate(today.getDate() - 57)).getTime())
+
+
+
+
+  // useEffect(()=> {
+  //   setTimeout((setSeconds(seconds+=1)), 100000)
+  // },[seconds])
     const renderer = ({ days , hours, minutes, seconds, completed }) => {
         if (completed) {
           // Render a complete state
@@ -49,7 +58,7 @@ console.log(seconds) //1440516958
                     <img className='logoImg' src={logo}/>
                 </div>
                 <div className="counterDisplayContainer">
-                <Countdown date={Date.now() + 15552000000 } renderer={renderer} />
+                <Countdown date={date + (14688000000) } renderer={renderer} />
                 </div>
             </div>
 

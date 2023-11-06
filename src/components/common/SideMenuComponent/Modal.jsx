@@ -21,6 +21,8 @@ import { AiFillHeart, AiTwotoneFileExclamation } from "react-icons/ai";
 import { BsCartCheck } from "react-icons/bs";
 import './sidemenu.scss';
 
+import {motion} from 'framer-motion'
+
 const routes = [
   
   {
@@ -205,7 +207,7 @@ const routes = [
 
     {
       path: "/contactus",
-      name: "Contact Us",
+      name: "Contact",
       // icon: <GiTalk />,
     },
     // {
@@ -263,7 +265,11 @@ const routes = [
     <>
     
     <div className="blurBg" onClick={closeModal}></div>
-    <div className="modalContainer" >
+    <motion.div className="modalContainer" 
+       initial={{x : -200}}
+       animate={{x : -150}}
+       transition={{ delay :0.3 , duration : 1 , type:'spring' , stiffness : 120}}
+    >
       <section className="routes">
             {routes.map((route, index) => {
               
@@ -287,7 +293,14 @@ const routes = [
                   
                   // activeClassName="active"
                 >
+                  <motion.div
+                        initial={{y : -200}}
+                        animate={{y : -20}}
+                        transition={{ delay :0.3 , duration : 1 , type:'spring' , stiffness : 120}}
+                    >
                         {route.name}
+
+                  </motion.div>
                 </NavLink>
                         <div className="icon" onClick={() => openSubMenu()} >{route.icon}</div> 
                         </div>
@@ -311,7 +324,7 @@ const routes = [
           </section>
       <FontAwesomeIcon color='#ffff' icon={faClose} onClick={closeModal}/>
 
-    </div>
+    </motion.div>
     </>
 
 
