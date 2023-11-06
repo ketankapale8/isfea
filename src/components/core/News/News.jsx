@@ -46,7 +46,7 @@ const News = () => {
       </div>
         
     </div>
-      <Sponsors/>
+      <Sponsors title={"Our Sponsors"}/>
     
     </>
   )
