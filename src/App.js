@@ -11,6 +11,7 @@ import Navbar from './components/common/Navbar/Navbar';
 import Footer from './components/common/Footer/Footer';
 import About from './components/core/About/About';
 import SideMenuComp from './components/common/SideMenuComponent/SideMenuComp';
+import CommonMissionVision from './components/common/CommonMissionVision/CommonMissionVision.jsx';
 
 function App() {
 
@@ -39,6 +40,8 @@ function App() {
           <Route path='/organization' element={<Org/>}/>
           <Route path='/news' element={<News/>}/>
           <Route path='/contactus' element={<Contact/>}/>
+          <Route path='/values' element={<CommonMissionVision/>}/>
+
         </Routes>
         <Footer/>
       </Router>

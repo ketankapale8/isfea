@@ -23,6 +23,7 @@ import bgRem1 from '../../../../assets/mission/bgRem1.png'
 import bgRem2 from '../../../../assets/mission/bgRem2.png'
 
 import {motion} from 'framer-motion'
+import { Link } from 'react-router-dom';
 
 
 export const Mission = () => {
@@ -31,19 +32,43 @@ export const Mission = () => {
       title : "Our Mission",
       img : Fourteen,
       color : "#ee334e",
-      desc : "At ISFEA, our mission is to empower individuals to achieve excellence in both sports and education. We are dedicated to creating a harmonious alliance between the world of sports and the realm of education. Through collaborative partnerships, scholarships, and advocacy, we strive to nurture well-rounded athletes who are not only champions in their chosen sports but also empowered, educated individuals ready to make a positive impact on society"
+      desc : "At ISFEA, our mission is to empower individuals to achieve excellence in both sports and education. We are dedicated to creating a harmonious alliance between the world of sports and the realm of education.",
+      detailPage : [
+        {
+          detailPageTitle : "Mission",
+          image : Fourteen,
+          para1 : "The mission of the International Sports Federation Education Alliances (ISFEA) is to foster global cooperation and collaboration in the field of sports education. Our primary objective is to promote excellence in sports education and training by facilitating partnerships and knowledge exchange among sports federations, institutions, and educators worldwide. We aim to create a unified platform where best practices, research, and innovations in sports education can be shared, leading to the development of highly skilled athletes, coaches, and administrators who uphold the values of fair play, integrity, and inclusivity. Through ISFEA, we strive to empower individuals and organizations with the tools and resources needed to advance the quality of sports education, thereby contributing to the overall growth and positive impact of the sporting community at the international level.",
+          para2 : "ISFEA is committed to ensuring that sports education remains accessible and inclusive to all, regardless of age, gender, or background. We are dedicated to advancing research, promoting sustainable development, and fostering global understanding in the field of sports education. Our mission is rooted in the belief that by forging strong partnerships and sharing knowledge, we can enhance the educational experience for athletes, coaches, and sports enthusiasts worldwide, thereby contributing to the holistic development of individuals and communities through the power of sports. Together, we aim to create a brighter future for the world of sports, where education is at the heart of athletic achievement and where the values of teamwork, respect, and lifelong learning are upheld as essential elements of the sporting journey."
+        }
+      ]
     },
     {
       title : "Vision",
       img : Seventeen,
       color : "#fcb131",
-      desc : "ISFEA envisions a world where sports and education are seamlessly integrated, creating a balanced and enriching environment for individuals to thrive. Our vision is to be the global leader in fostering a partnership between sports and education that empowers athletes to excel not only in their chosen disciplines but also as well-rounded, responsible citizens. We aspire to transform lives by championing the pursuit of athletic and academic excellence, ensuring that every individual, regardless of their background, has the opportunity to reach their full potential, both on the field and in the classroom."
+      desc : "ISFEA envisions a world where sports and education are seamlessly integrated, creating a balanced and enriching environment for individuals to thrive. Our vision is to be the global leader in fostering a partnership between sports and education that empowers athletes to excel. ",
+      detailPage : [
+        {
+          detailPageTitle : "Vision",
+          image : Seventeen,
+          para1 : "The vision of the International Sports Federation Education Alliances (ISFEA) is to become a globally recognized leader in advancing sports education for the betterment of athletes, coaches, and the entire sporting community. We envision a world where sports education is an integral part of every athlete's journey, fostering not only exceptional athletic performance but also personal growth and character development. ISFEA aspires to create a network of interconnected sports federations, educational institutions, and organizations that collaboratively design and implement cutting-edge educational programs, ensuring that athletes have access to the best education, training, and resources that empower them to excel in their chosen sports and in life.",
+          para2 : "In this vision, ISFEA envisions an inclusive and diverse sports education landscape that transcends borders and barriers, where athletes of all backgrounds have equal opportunities to develop their skills and pursue their sporting dreams. Through our global partnerships and collaborative initiatives, we aim to create a future where sports education is a driving force for social and cultural cohesion, helping build bridges between communities and nations. ISFEA is committed to promoting lifelong learning and fostering a culture of excellence, integrity, and fairness in sports, ultimately contributing to a more enlightened, harmonious, and sports-loving world."
+        }
+      ]
     },
     {
       title : "Our Values",
       img : Fifteen,
       color : "#0081cb",
-      desc : "At the International Sports Federation for Education Alliances (ISFEA), our values are the cornerstone of our mission. We are dedicated to promoting excellence and inclusivity by seamlessly integrating sports and education, empowering individuals to achieve their full potential while upholding the highest standards of integrity. Through collaboration and advocacy, we work to create a world where lifelong learning and personal growth are at the heart of every athlete's journey."
+      desc : "At the International Sports Federation for Education Alliances (ISFEA), our values are the cornerstone of our mission. We are dedicated to promoting excellence and inclusivity by seamlessly integrating sports and education, empowering individuals to achieve their full potential while upholding the highest standards of integrity. ",
+      detailPage : [
+        {
+          detailPageTitle : "Values",
+          image : Fifteen,
+          para1 : "The International Sports Federation Education Alliances (ISFEA) is guided by a set of core values that define our commitment to the advancement of sports education and the betterment of the global sporting community. First and foremost, we value Excellence, striving to ensure that sports education programs and initiatives are of the highest quality and efficacy. We believe in the continuous pursuit of excellence in athlete development, coaching, and sports administration. Integrity is another fundamental value we uphold, promoting honesty, transparency, and ethical conduct in all our endeavors. We are committed to fostering an environment where sports education is rooted in trust, fairness, and moral principles.",
+          para2 : "Inclusivity is a key value at ISFEA, as we are dedicated to providing equal opportunities in sports education for individuals of all backgrounds, regardless of their age, gender, race, or socioeconomic status. We believe that diversity enriches the sporting community and contributes to a more vibrant and inclusive sports culture. Collaboration is also central to our values, as we recognize the power of working together with sports federations, educational institutions, and other stakeholders to achieve our mission. We are committed to building strong partnerships and facilitating knowledge exchange to collectively elevate the standard of sports education on a global scale. Finally, Lifelong Learning is a core value at ISFEA, as we emphasize the importance of ongoing education and skill development for athletes, coaches, and administrators. We believe that a commitment to continuous learning is essential for staying at the forefront of sports education practices and innovations. These values collectively guide our actions and initiatives, as we work to make a positive and lasting impact in the world of sports education."
+        }
+      ]
     }
   ]
   return (
@@ -62,8 +87,11 @@ export const Mission = () => {
                 </div>
                 <div className="bottom">
                   <div className="title">{item.title}</div>
-                  <p className="desc">{item.desc.slice(0,260)+ '....'}</p>
-                  <button style={{backgroundColor:`${item.color}`}}>Read More</button>
+                  <p className="desc">{item.desc.slice(0,350)+ ''}</p>
+                  <Link style={{color:'inherit', textDecoration:'none'}} to="/values" state={{data:  item.detailPage}}>
+                    <button style={{backgroundColor:`${item.color}`, marginTop:'20px'}}>Read More..</button>
+                  
+                  </Link>
                 </div>
 
               </div>

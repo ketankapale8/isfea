@@ -35,13 +35,15 @@ const fadeImages = [
   },
 ];
 
+
+
 const Slideshow = () => {
   return (
     <div className="slide-container" >
       <Fade arrows={false}>
         {fadeImages.map((fadeImage, index) => (
-          <div key={index} style={{position:'relative'}}>
-            <img style={{ width: '100%' , height:'720px' , objectFit:'cover' ,}} src={fadeImage.img} />
+          <div key={index} style={{position:'relative' ,width:'100%'}}>
+            <img style={{ width: '100%' , height:'820px' , objectFit:'cover' ,}} src={fadeImage.img} />
             <h2 style={{position:'absolute', top: '60%' , left:'10%' , color:'white', fontSize:'2.5rem'}}>{fadeImage.caption}</h2>
           </div>
         ))}
