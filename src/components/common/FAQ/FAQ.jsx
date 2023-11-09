@@ -78,7 +78,7 @@ const FAQ = () => {
   return (
     <div>
          <div className='container'>
-      <h2 className="heading">FAQ</h2>
+      <h2 className="heading">FAQ's</h2>
       <section className='faq'>
        {questions.map(item => <Question question={item.question} answer={item.answer} />)}
       </section>      
