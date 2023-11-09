@@ -195,8 +195,8 @@ button:focus {
         display: block;
         text-align: left;
         padding-top: 1.5rem;
-        height: auto;
-        padding-bottom: 2px;
+        height: auto !important;
+        padding-bottom: 12px;
         font-weight: light;
         font-size: 0.8rem;
         line-height: 1.5;
