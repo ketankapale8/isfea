@@ -30,7 +30,9 @@ const Home = () => {
       <HomeLeft 
        title={"Promoting Athletic and Academic Excellence"} desc={"ISFEA envisions a world where sports and education are seamlessly intertwined, ensuring that individuals not only excel in their chosen sports but also receive a well-rounded education"}
        img={One}
-       desc1={" ISFEA encourages the pursuit of excellence in both sports and education, emphasizing the value of education alongside sports achievements."}/>
+       desc1={"Through its programs, ISFEA exemplifies the belief that true excellence lies not only in athletic achievement but in the synergy of physical prowess and intellectual growth, providing a pathway for the next generation of athletes to become leaders in their chosen fields and society as a whole."}
+       />
+       {/* desc1={" ISFEA encourages the pursuit of excellence in both sports and education, emphasizing the value of education alongside sports achievements."}/> */}
 
       <HomeRight
       title={"Facilitating Scholarships and Opportunities"}

@@ -3,7 +3,8 @@ import './regulations.scss';
 import dot from '../../../../assets/regulations/rec.png'
 
 const Regulations = () => {
-    const [showReg , setShowReg] = useState(false)
+    const [showReg , setShowReg] = useState(false);
+    const [title , setTitle] = useState('Show')
     const regulationsArr = [
         {
             title : "Participants (Art. 1):",
@@ -109,13 +110,15 @@ const Regulations = () => {
 
     function Toggle(){
         if(showReg == false){
-            setShowReg(true)
+            setShowReg(true);
+            setTitle('Hide')
         }else{
-            setShowReg(false)
+            setShowReg(false);
+            setTitle('Show')
         }
     }
   return (<div className='regulationsMain'>
-        <button onClick={()=>Toggle()}>Show Regulations</button>
+        <button onClick={()=>Toggle()}>{title} Regulations</button>
         {showReg && (
         <div className='regulations'>
                 <h3 className="regulationsTitle">Organization Regulations</h3>
