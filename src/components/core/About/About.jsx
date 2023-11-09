@@ -9,6 +9,7 @@ import HomeRight from '../../common/HomeRight/HomeRight';
 import BannerComp from '../../common/BannerComp/BannerComp';
 import BannerImg from '../../../assets/bgremoved/bg2.png'
 import Regulations from './Regulations/Regulations';
+import FAQ from '../../common/FAQ/FAQ';
 // import BannerComp1 from '../../common/BannerComp1/BannerComp';
 
 
@@ -33,6 +34,7 @@ const About = () => {
        title={"Overall Sports Development"} desc={"At the International Sports Federation Education Alliances (ISFEA), our commitment to overall sports development encompasses a holistic approach to nurturing athletic talent, enhancing coaching excellence, and promoting sports administration proficiency. We believe that a well-rounded sports ecosystem is essential for the growth of the sporting community, and we strive to contribute to this by offering comprehensive support and resources. Through our initiatives, we aim to develop high-caliber athletes by providing access to top-tier sports education, training, and mentorship, enabling them to excel in their chosen disciplines. Moreover, we are dedicated to empowering coaches with cutting-edge knowledge and methodologies, ensuring they can provide the best guidance and support to athletes, thereby elevating the quality of coaching in the sports industry. "}
        img={Three}
        desc1={"ISFEA also recognizes the significance of effective sports administration in the success and sustainability of sports organizations. We work to equip sports administrators with the necessary skills, tools, and resources to manage sports programs, events, and institutions efficiently. By focusing on sports administration, we aim to enhance the overall management of sports activities, which is essential for the growth, sustainability, and ethical governance of the sports industry."}/>
+       <FAQ/>
        <Regulations/>
     </div>
     
