@@ -82,6 +82,32 @@ const Regulations = () => {
         },
 
         {
+            title : "Invitations (Art. 7):",
+            desc : [
+                {
+                    para1 : "Invitations are announced by the hosting city, containing essential details such as dates, sports, entry guidelines, and technical handbooks.",
+                    // para2 : " Must follow the official ISFEA Bid form and process.",
+                    // para3 : "Organizers are responsible for comprehensive medical care for participants.",
+                    // para4 : "Participation must involve at least five cities from a minimum of three countries, with four different sports being held."
+
+                }
+            ]
+        },
+
+        {
+            title : "Awards Ceremony (Art. 8):",
+            desc : [
+                {
+                    para1 : "Winners receive gold, silver, and bronze medals.",
+                    para2 : " Participation certificates are prepared for all participants and coaches.",
+                    para3 : "Committee members are involved in the Awards Ceremonies.",
+                    // para4 : "Participation must involve at least five cities from a minimum of three countries, with four different sports being held."
+
+                }
+            ]
+        },
+
+        {
             title : "Opening and Closing of the International Children’s Games (Art. 9):",
             desc : [
                 {
