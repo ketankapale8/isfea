@@ -190,6 +190,20 @@ button:focus {
       margin: 0 auto;
       padding: 0.8rem;
       transition: 1s;
+
+      .answer.active{
+        display: block;
+        text-align: left;
+        padding-top: 1.5rem;
+        height: auto;
+        font-weight: light;
+        font-size: 0.8rem;
+        line-height: 1.5;
+        color: $secondary-text-color;
+        height: 0%;
+        animation: slidein 0.4s;
+        animation-fill-mode: forwards;
+      }
      }
     }
   }
