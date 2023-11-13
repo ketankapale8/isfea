@@ -100,6 +100,9 @@ $slide-widthJr: 10rem;
             
             img {
                 transform: scale(1.1);
+                border: 1px solid transparent;
+
+                border-radius: 30px;
             }
         }
     }
@@ -116,6 +119,7 @@ $slide-widthJr: 10rem;
     
         h4 {
             margin: 0.7rem 0 0;
+            font-size: 1.3rem;
             text-transform: uppercase;
         }
     
@@ -290,6 +294,9 @@ $slide-widthJr: 10rem;
         
                 img {
                     transform: scale(1.1);
+                    border: 1px solid transparent;
+
+                    border-radius: 30px;
                 }
             }
         }
@@ -309,6 +316,8 @@ $slide-widthJr: 10rem;
             h4 {
                 margin: 0.7rem 0 0;
                 text-transform: uppercase;
+            font-size: 1.1rem;
+
             }
         
             p {
@@ -493,6 +502,9 @@ $slide-widthJr: 10rem;
                 }
         
                 img {
+                border: 1px solid transparent;
+
+                    border-radius: 30px;
                     transform: scale(1.1);
                 }
             }
@@ -511,8 +523,10 @@ $slide-widthJr: 10rem;
             margin-right: 20px;
         
             h4 {
-                margin: 0.7rem 0 0;
+                margin: 0rem 0 0;
                 text-transform: uppercase;
+            font-size: 1.1rem;
+
             }
         
             p {
