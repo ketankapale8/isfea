@@ -204,6 +204,11 @@ const routes = [
       name: "News",
       // icon: <GiTalk />,
     },
+    {
+      path: "/upcomingevents",
+      name: "Upcoming Events",
+      // icon: <GiTalk />,
+    },
 
     {
       path: "/contactus",
@@ -322,7 +327,7 @@ const routes = [
               );
             })}
           </section>
-      <FontAwesomeIcon color='#ffff' icon={faClose} onClick={closeModal}/>
+      <FontAwesomeIcon color='#ffff' size='2x' icon={faClose} onClick={closeModal}/>
 
     </motion.div>
     </>

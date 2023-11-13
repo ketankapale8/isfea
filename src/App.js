@@ -5,13 +5,14 @@ import {BrowserRouter as Router , Routes , Route} from 'react-router-dom';
 import Home from './components/core/Home/Home.jsx';
 import Org from './components/core/Org/Org';
 import Contact from './components/core/Contact/Contact';
-import Sponsors from './components/core/Sponsors/Sponsors';
+// import Sponsors from './components/core/Sponsors/Sponsors';
 import News from './components/core/News/News'
 import Navbar from './components/common/Navbar/Navbar';
 import Footer from './components/common/Footer/Footer';
 import About from './components/core/About/About';
 import SideMenuComp from './components/common/SideMenuComponent/SideMenuComp';
 import CommonMissionVision from './components/common/CommonMissionVision/CommonMissionVision.jsx';
+import UpcomingEvents from './components/core/UpcomingEvents/UpcomingEvents.jsx';
 
 function App() {
 
@@ -41,6 +42,8 @@ function App() {
           <Route path='/news' element={<News/>}/>
           <Route path='/contactus' element={<Contact/>}/>
           <Route path='/values' element={<CommonMissionVision/>}/>
+          <Route path='/upcomingevents' element={<UpcomingEvents/>}/>
+
 
         </Routes>
         <Footer/>

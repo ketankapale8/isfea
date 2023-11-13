@@ -35,6 +35,11 @@ const Navbar = () => {
       link : "/news"
 
     },
+    {
+      title : "Upcoming Events",
+      link : "/upcomingevents"
+
+    },
     
     {
       title : "Contact Us",
