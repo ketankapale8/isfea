@@ -4,6 +4,7 @@ import img from '../../../assets/contactus/2.jpeg'
 import BannerComp from '../../common/BannerComp/BannerComp';
 import BannerImg from '../../../assets/bgremoved/bg1.png';
 import {motion} from 'framer-motion';
+import NewsLetter from '../../common/Newsletter/NewsLetter';
 
 // import BannerComp1 from '../../common/BannerComp1/BannerComp';
 const Contact = () => {
@@ -58,6 +59,7 @@ const Contact = () => {
             </motion.div>
         </div>
     </div>
+    <NewsLetter/>
     </div>
   )
 }

@@ -1,0 +1,275 @@
+.newsletter{
+    width: auto;
+    height: 400px;
+
+    .newsLetterContainer{
+        width: 80%;
+        margin-left: 150px;
+        margin-right: 150px;
+        height: 250px;
+        background-color: #5d5dff;
+        border: 1px solid transparent;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        position: relative;
+        z-index: 1;
+        // .newsletterpng{
+        //     position: absolute;
+        //     top: 0px;
+        //     width: 320px;
+        //     height: 100px;
+        //     left: 70%;
+        //     z-index: -999;
+
+        // }
+
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            line-height: 20px;
+
+            .newsLetterTitle{
+                font-size: 2.5rem;
+                color: whitesmoke;
+            }
+            .newsLetterDesc{
+                font-size: 1.2rem;
+                color: whitesmoke;
+
+            }
+        }
+
+        .right{
+            display: flex;
+            flex-direction: row;
+            gap: 13px;
+
+            .emailBox{
+                width: 250px;
+                height: 50px;
+                color: white;
+                background-color: #4b4acf;
+                border: 1px solid transparent;
+                
+            }
+
+            .emailBox::placeholder{
+                color: white;
+                padding-left: 20px;
+            }
+
+            .emailBox:focus{
+                outline: none;
+            }
+
+            
+
+            .subscribeBtn{
+                width: 140px;
+                height: 50px;
+                background-color: #fcb131;
+                color: white;
+                border: 1px solid transparent;
+                border-radius: 20px;
+                border: none;
+                font-size: 1.4rem;
+
+            }
+        }
+    }
+
+}
+
+@media (min-width : 1081px) and (max-width :1800px){
+    .newsletter{
+        width: auto;
+        height: 400px;
+    
+        .newsLetterContainer{
+            width: 75%;
+            // margin-left: 70px;
+            // margin-right: 70px;
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 250px;
+            background-color: #5d5dff;
+            border: 1px solid transparent;
+            border-radius: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            position: relative;
+            z-index: 1;
+            // .newsletterpng{
+            //     position: absolute;
+            //     top: 0px;
+            //     width: 320px;
+            //     height: 100px;
+            //     left: 70%;
+            //     z-index: -999;
+    
+            // }
+    
+            .left{
+                display: flex;
+                flex-direction: column;
+                gap: 0px;
+                line-height: 20px;
+    
+                .newsLetterTitle{
+                    font-size: 2.5rem;
+                    color: whitesmoke;
+                }
+                .newsLetterDesc{
+                    font-size: 1.2rem;
+                    color: whitesmoke;
+    
+                }
+            }
+    
+            .right{
+                display: flex;
+                flex-direction: row;
+                gap: 13px;
+    
+                .emailBox{
+                    width: 250px;
+                    height: 50px;
+                    color: white;
+                    background-color: #4b4acf;
+                    border: 1px solid transparent;
+                    
+                }
+    
+                .emailBox::placeholder{
+                    color: white;
+                    padding-left: 20px;
+                }
+    
+                .emailBox:focus{
+                    outline: none;
+                }
+    
+                
+    
+                .subscribeBtn{
+                    width: 140px;
+                    height: 50px;
+                    background-color: #fcb131;
+                     color: white; 
+                border: 1px solid transparent;
+                border-radius: 10px;
+                    font-size: 1.4rem;
+    
+                }
+            }
+        }
+    
+    }
+
+}
+
+@media (min-width : 320px) and (max-width : 1080px){
+    .newsletter{
+        width: auto;
+        height: auto;
+    
+        .newsLetterContainer{
+            width: auto;
+            margin-top: 30px;
+            padding-top: 40px;
+            margin-left: 60px;
+            margin-right: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            height: auto;
+            padding-bottom: 20px;
+            background-color: #5d5dff;
+            border: 1px solid transparent;
+            border-radius: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: relative;
+            z-index: 1;
+            // .newsletterpng{
+            //     position: absolute;
+            //     top: 0px;
+            //     width: 320px;
+            //     height: 100px;
+            //     left: 70%;
+            //     z-index: -999;
+    
+            // }
+    
+            .left{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0px;
+                line-height: 20px;
+    
+                .newsLetterTitle{
+                    font-size: 1.6rem;
+                    color: whitesmoke;
+                }
+                .newsLetterDesc{
+                    font-size: 1.2rem;
+                    color: whitesmoke;
+    
+                }
+            }
+    
+            .right{
+                display: flex;
+                flex-direction: row;
+                gap: 13px;
+    
+                .emailBox{
+                    width: 120px;
+                    height: 40px;
+                    color: white;
+                    background-color: #4b4acf;
+                    border: 1px solid transparent;
+                    
+                }
+    
+                .emailBox::placeholder{
+                    color: white;
+                    padding-left: 10px;
+                    border: 1px solid transparent;
+                }
+    
+                .emailBox:focus{
+                    outline: none;
+                }
+    
+                
+    
+                .subscribeBtn{
+                    width: 90px;
+                    height: 40px;
+                    background-color: #fcb131;
+                    color: white;
+                border: 1px solid transparent;
+                border-radius: 10px;
+                    
+                    border: none;
+                    font-size: 1rem;
+    
+                }
+            }
+        }
+    
+    }
+
+}
