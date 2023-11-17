@@ -81,6 +81,8 @@ const _items = [
 const _items1 = [
     {
         player: {
+             color : "#ee334e",
+
             title: 'Tennis',
             desc: 'Game, set, match – where every swing tells a story on the tennis court!',
             date : "12th May , 2024 , Swizerland",
@@ -90,6 +92,8 @@ const _items1 = [
     {
         player: {
             title: "Baseball",
+      color : "#fcb131",
+
             desc: "Hit it out of the park with baseball – where every pitch is a chance for glory!",
             image: Two,
             date : "12th May , 2024 , Swizerland",
@@ -98,6 +102,8 @@ const _items1 = [
     {
         player: {
             title: 'Basketball',
+      color : "#0081cb",
+
             desc: "Dribble through life's challenges and slam dunk your way to success with basketball",
             image: Seven,
             date : "12th May , 2024 , Swizerland",
@@ -106,6 +112,8 @@ const _items1 = [
     {
         player: {
             title: 'Volley Ball',
+      color : "#ee334e",
+
             desc: 'Spike your way to victory and set the court ablaze – volleyball, where teamwork rises above the net!',
             image: Six,
             date : "12th May , 2024 , Swizerland",
@@ -115,6 +123,8 @@ const _items1 = [
     {
         player: {
             title: 'Archery',
+      color : "#fcb131",
+
             desc: 'Bullseye dreams and arrow precision – archery, where focus meets the target!',
             image: One,
             date : "12th May , 2024 , Swizerland",
@@ -123,6 +133,9 @@ const _items1 = [
     {
         player: {
             title: 'Boxing',
+            color : "#0081cb",
+
+
             desc: 'In the ring of determination, every punch tells a tale of resilience – boxing, where champions are forged.   ',
             image: Four,
             date : "12th May , 2024 , Swizerland",
@@ -228,7 +241,7 @@ const keys = Array.from(Array(_items.length).keys());
                 <div className='eventDescContainer'>
                   <h4>{item.player.title}</h4>
                   <p>{item.player.desc}</p>
-                  <p>{item.player.date}</p>
+                  <button className='dateBtn' style={{backgroundColor:`${item.player.color}`}}>{item.player.date}</button>
 
 
 
