@@ -55,7 +55,6 @@ const Org = () => {
       <Team title={"Committee Members"} teamArr={teamArr}/>
       {/* <Countries/> */}
       <Sponsors title={"Our Associations"}/>
-
     </div>
   )
 }

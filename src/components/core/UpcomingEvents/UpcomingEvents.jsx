@@ -171,7 +171,7 @@ const CarouselSlideItem = ({pos, idx, activeIdx}) => {
             <div className="carousel-slide-item__body">
                 <h4>{item.player.title}</h4>
                 <p>{item.player.desc}</p>
-                <p>{item.player.date}</p>
+                <p className='dateBtn'>{item.player.date}</p>
             </div>
         </li>
     );
