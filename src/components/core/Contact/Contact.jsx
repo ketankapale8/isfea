@@ -10,7 +10,7 @@ import NewsLetter from '../../common/Newsletter/NewsLetter';
 const Contact = () => {
   return (
     <div className="contact">
-      <BannerComp img={BannerImg} title={"Contact"}/>
+      <BannerComp img={BannerImg} title={"Contact Us"}/>
 
     <div className='contactleft'>
         <div className="contactLeftContainer">

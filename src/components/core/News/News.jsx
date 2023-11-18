@@ -10,14 +10,14 @@ import {motion} from 'framer-motion';
 const News = () => {
   const newsArr = [
     {
-      title : "A leading institution for Olympic Education",
+      title : "ISFEA announces it’s summer 2024 sports event",
       desc : "The IOA, situated next to the archaeological site where the Olympic Games were born, aims at studying, enriching, and promoting Olympism and its values in relevance with current global issues of Olympic interest and in conformity with the principles laid down by the ancient Greeks and the revivers of the contemporary Olympic Movement."
     },
      {
-      title : "Win once-in-a-lifetime Olympic experiences",
+      title : "ISFEA collaborates with associations in India, Switzerland , UAE  and Africa",
       desc: "The Road to Paris Volleyball Qualifier takes place in Brazil, Japan and the People’s Republic of China from 30 September to 8 October with six nations earning Olympic quota spots."
     }, {
-      title : "Volleyball Men’s Olympic Qualifying Tournament ",
+      title : "ISFEA opens a new chapter in Singapore",
       desc : "The Road to Paris Volleyball Qualifier takes place in Brazil, Japan and the People’s Republic of China from 30 September to 8 October with six nations earning Olympic quota spots."
     }
   ]
@@ -46,7 +46,7 @@ const News = () => {
       </div>
         
     </div>
-      <Sponsors title={"Our Sponsors"}/>
+      {/* <Sponsors title={"Our Sponsors"}/> */}
     
     </>
   )

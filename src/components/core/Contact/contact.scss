@@ -77,11 +77,16 @@
     
                         textarea{
                             min-width: 460px;
-                            max-height: 250px;
+                            min-height: 150px !important;
+                            outline: none;
+                            max-height: 450px;
                             border-radius: 10px;
                             border: 1px solid transparent;
 
                         }
+                        
+
+                        
     
                         
                     }
@@ -186,7 +191,8 @@
         
                             textarea{
                                 min-width: 260px;
-                                max-height: 150px;
+                                min-height: 150px !important;
+                                max-height: 550px;
                                 border-radius: 10px;
                             }
         
@@ -296,6 +302,7 @@
         
                             textarea{
                                 min-width: 260px;
+                                min-height: 100px !important;
                                 max-height: 150px;
                                 border-radius: 10px;
                             }

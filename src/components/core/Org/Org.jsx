@@ -46,15 +46,48 @@ const teamArr = [
   }
 ]
 
+const teamArr1 = [
+  {
+      title : "Vijay Pal Singh",
+      position : "Asst Vice President",
+      img : One,
+      location : "Germany",
+  },  
+  {
+      title : "Erman Kucuk",
+      position : "Secretary General",
+      img : Two,
+      location : "Greece",
+  },
+  {
+      title : "Patrick Bellomo",
+      position : "President",
+      img : Three,
+      location : "Australia",
+  },
+  {
+      title : "Adwait Kashalkar",
+      position : "Head Of Operations",
+      img : Four,
+      location : "South Africa",
+  },
+  {
+      title : "Jitendra Sharma",
+      position : "Executive Director",
+      location : "Spain",
+      img : Five
+  }
+]
+
 
 const Org = () => {
   return (
     <div className='org'>
-      <BannerComp img={BannerImg} title={"Organization Structure"}/>
-      <Team title={"Our Executive Committee Members"} teamArr={teamArr}/>
-      <Team title={"Committee Members"} teamArr={teamArr}/>
+      <BannerComp img={BannerImg} title={"Our team"}/>
+      <Team title={"Our executive team"} teamArr={teamArr1}/>
+      <Team title={"Our Team"} teamArr={teamArr}/>
       {/* <Countries/> */}
-      <Sponsors title={"Our Associations"}/>
+      {/* <Sponsors title={"Our Associations"}/> */}
     </div>
   )
 }

@@ -45,17 +45,17 @@ function sendEmailInfo()
 
                       </p>
                       <p>
-                      Media Relations
+                      20 Therwilerstrasse , 
 
                       </p>
                       <p>
-                      Mythenquai 2
+                      Bottmingen , 4103 
                       </p>
                       <p>
-8002 Zurich, Switzerland 
+                       Switzerland 
 
                       </p>
-                      <p onClick={()=>sendEmail()} className='email'>support@isfea.org</p>
+                      <p onClick={()=>sendEmail()} className='email'>info@isfea.org</p>
                     </div>
                     <div className="footerDesc">
                         {/* <img className='icons' src={six}/>

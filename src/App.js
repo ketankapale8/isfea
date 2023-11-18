@@ -13,6 +13,7 @@ import About from './components/core/About/About';
 import SideMenuComp from './components/common/SideMenuComponent/SideMenuComp';
 import CommonMissionVision from './components/common/CommonMissionVision/CommonMissionVision.jsx';
 import UpcomingEvents from './components/core/UpcomingEvents/UpcomingEvents.jsx';
+import ScrollToTop from './components/common/ScrollToTop/ScrollToTop.jsx';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop/>
         {/* <Navbar/> */}
         <Suspense fallback={<h4>Loading...</h4>}>
           {/* { w > 870 ? <Navbar/>: <RenderSideBar/>} */}

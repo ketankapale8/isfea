@@ -48,7 +48,7 @@ const Home = () => {
 
        <Mission/>
        {/* <MapComp/> */}
-       <Sponsors title={"Our Sponsors"}/>
+       {/* <Sponsors title={"Our Sponsors"}/> */}
        <Counter/>
     </div>
     
