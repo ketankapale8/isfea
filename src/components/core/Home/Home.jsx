@@ -12,8 +12,9 @@ import Sponsors from '../Sponsors/Sponsors';
 import BannerImgNew from '../../../assets/backgrounds/bg21.jpeg'
 
 import One from '../../../assets/newassets/1.jpeg'
-import Two from '../../../assets/newassets/6.jpg'
+import Two from '../../../assets/newassets/8.jpg'
 import Three from '../../../assets/newassets/7.jpg'
+
 import DummySlider2 from '../../common/Slider/Slider';
 import Counter from '../../common/Counter/Counter';
 import Slideshow from '../../common/newSlider/NewSlider';

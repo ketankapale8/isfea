@@ -33,7 +33,7 @@ const _items = [
         player: {
             title: 'Tennis',
             desc: 'Game, set, match – where every swing tells a story on the tennis court!',
-            date : "12th May , 2024 , Swizerland",
+            date : "Summer event , 2024 , Switzerland",
             image: Five,
         },
     },
@@ -42,7 +42,7 @@ const _items = [
             title: "Baseball",
             desc: "Hit it out of the park with baseball – where every pitch is a chance for glory!",
             image: Two,
-            date : "12th May , 2024 , Swizerland",
+            date : "Summer event , 2024 , Switzerland",
         },
     },
     {
@@ -50,7 +50,7 @@ const _items = [
             title: 'Basketball',
             desc: "Dribble through life's challenges and slam dunk your way to success with basketball",
             image: Seven,
-            date : "12th May , 2024 , Swizerland",
+            date : "Summer event , 2024 , Switzerland",
         },
     },
     // {
@@ -65,7 +65,7 @@ const _items = [
             title: 'Archery',
             desc: 'Bullseye dreams and arrow precision – archery, where focus meets the target!',
             image: One,
-            date : "12th May , 2024 , Swizerland",
+            date : "Summer event , 2024 , Switzerland",
         },
     },
     {
@@ -73,7 +73,7 @@ const _items = [
             title: 'Boxing',
             desc: 'In the ring of determination, every punch tells a tale of resilience – boxing, where champions are forged.   ',
             image: Four,
-            date : "12th May , 2024 , Swizerland",
+            date : "Summer event , 2024 , Switzerland",
         },
     },
 ];
@@ -85,7 +85,7 @@ const _items1 = [
 
             title: 'Tennis',
             desc: 'Game, set, match – where every swing tells a story on the tennis court!',
-            date : "12th May , 2024 , Swizerland",
+            date : "Summer event , 2024 , Switzerland",
             image: Five,
         },
     },
@@ -96,7 +96,7 @@ const _items1 = [
 
             desc: "Hit it out of the park with baseball – where every pitch is a chance for glory!",
             image: Two,
-            date : "12th May , 2024 , Swizerland",
+            date : "Summer event , 2024 , Switzerland",
         },
     },
     {
@@ -106,7 +106,7 @@ const _items1 = [
 
             desc: "Dribble through life's challenges and slam dunk your way to success with basketball",
             image: Seven,
-            date : "12th May , 2024 , Swizerland",
+            date : "Summer event , 2024 , Switzerland",
         },
     },
     {
@@ -116,7 +116,7 @@ const _items1 = [
 
             desc: 'Spike your way to victory and set the court ablaze – volleyball, where teamwork rises above the net!',
             image: Six,
-            date : "12th May , 2024 , Swizerland",
+            date : "Summer event , 2024 , Switzerland",
 
         },
     },
@@ -127,7 +127,7 @@ const _items1 = [
 
             desc: 'Bullseye dreams and arrow precision – archery, where focus meets the target!',
             image: One,
-            date : "12th May , 2024 , Swizerland",
+            date : "Summer event , 2024 , Switzerland",
         },
     },
     {
@@ -138,7 +138,7 @@ const _items1 = [
 
             desc: 'In the ring of determination, every punch tells a tale of resilience – boxing, where champions are forged.   ',
             image: Four,
-            date : "12th May , 2024 , Swizerland",
+            date : "Summer event , 2024 , Switzerland",
         },
     },
 ];

@@ -14,6 +14,7 @@ import SideMenuComp from './components/common/SideMenuComponent/SideMenuComp';
 import CommonMissionVision from './components/common/CommonMissionVision/CommonMissionVision.jsx';
 import UpcomingEvents from './components/core/UpcomingEvents/UpcomingEvents.jsx';
 import ScrollToTop from './components/common/ScrollToTop/ScrollToTop.jsx';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
 
@@ -45,9 +46,8 @@ function App() {
           <Route path='/contactus' element={<Contact/>}/>
           <Route path='/values' element={<CommonMissionVision/>}/>
           <Route path='/upcomingevents' element={<UpcomingEvents/>}/>
-
-
         </Routes>
+        <Toaster/>
         <Footer/>
       </Router>
     </div>
