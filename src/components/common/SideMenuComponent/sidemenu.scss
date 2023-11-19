@@ -65,7 +65,7 @@ $nav-item-nb       : 6;
 		left: 0; 
 		z-index: -1;
 		width: $nav-width-mobile;
-		background: #d62956;
+		background: linear-gradient(90deg, hsla(53, 84%, 74%, 1) 0%, hsla(336, 87%, 61%, 1) 49%, hsla(262, 81%, 71%, 1) 100%);
 		content: '';
 		transform: skewX(15deg) translateX(-85%) !important;
 		transform-origin: bottom left;
@@ -99,7 +99,8 @@ $nav-item-nb       : 6;
             .link{
                 padding-left: 20%;
                 gap: 10px;
-                color: #d62956;
+                // color: #d62956;
+                color : linear-gradient(90deg, hsla(53, 84%, 74%, 1) 0%, hsla(336, 87%, 61%, 1) 49%, hsla(262, 81%, 71%, 1) 100%);
                 font-size: 1.3rem;
                 width: 100%;
                 text-decoration: none;

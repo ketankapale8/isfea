@@ -57,7 +57,7 @@
             height: 0.15em;
             bottom: 0;
             left: 0;
-            background: #fec02b;
+            background: linear-gradient(90deg, hsla(53, 84%, 74%, 1) 0%, hsla(336, 87%, 61%, 1) 49%, hsla(262, 81%, 71%, 1) 100%);
             transform-origin: bottom right;
             transition: transform 0.25s ease-out;
           }

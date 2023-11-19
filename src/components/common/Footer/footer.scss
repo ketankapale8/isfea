@@ -55,7 +55,7 @@ gap: 0px;
     
     
     .footerLogo{
-        padding: 5px 0px;
+        padding: 15px 0px;
         font-size: 1.5rem;
         display: inline-block;
         position: relative;
@@ -67,13 +67,13 @@ gap: 0px;
     .footerLogo::after {
         content: '';
         position: absolute;
-        width: 85%;
+        width: 88%;
         transform: scaleX(0);
         border-radius: 5px;
         height: 0.15em;
         bottom: 0;
         left: 0;
-        background: #fec02b;
+        background:  linear-gradient(90deg, hsla(53, 84%, 74%, 1) 0%, hsla(336, 87%, 61%, 1) 49%, hsla(262, 81%, 71%, 1) 100%);
         transform-origin: bottom right;
         transition: transform 0.25s ease-out;
       }

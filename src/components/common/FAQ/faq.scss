@@ -7,7 +7,8 @@
 // }
 
 $bg-color: #F6F8FC;
-$primary-text-color: #212943;
+ $primary-text-color: #212943;
+// $primary-text-color: linear-gradient(90deg, hsla(53, 84%, 74%, 1) 0%, hsla(336, 87%, 61%, 1) 49%, hsla(262, 81%, 71%, 1) 100%);
 $secondary-text-color: #9EA6AE;
 $details: #DEE4F1;
 
@@ -81,9 +82,47 @@ form {
   display: flex;
   font-size: 1rem;
   font-weight: 500;
+  // color : linear-gradient(90deg, hsla(53, 84%, 74%, 1) 0%, hsla(336, 87%, 61%, 1) 49%, hsla(262, 81%, 71%, 1) 100%);
   color: $primary-text-color;  
   display: flex;
   justify-content: space-between;
+
+  h3{
+    color: black;
+    cursor: pointer;
+  position: relative;
+  padding: 5px 10px;
+
+
+  }
+
+  h3::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 15px;
+    height: 0.15em;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, hsla(53, 84%, 74%, 1) 0%, hsla(336, 87%, 61%, 1) 49%, hsla(262, 81%, 71%, 1) 100%);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  h3:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+  .questionTitle{
+    color: black;
+    display: inline-block;
+  }
+
+  // .questionTitle:hover{
+  //   font-size: 1.3rem !important;
+  // }
   
   svg {
     width: 1rem;
@@ -163,6 +202,8 @@ button:focus {
       padding: 0.8rem;
       transition: 1s;
 
+      
+
       .answer.active{
         display: block;
         text-align: left;
@@ -207,6 +248,33 @@ button:focus {
       margin: 0 auto;
       padding: 0.8rem;
       transition: 1s;
+
+      h3{
+        color: black;
+        cursor: pointer;
+      position: relative;
+      padding: 5px 5px;
+    
+    
+      }
+    
+      h3::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        border-radius: 15px;
+        height: 0.15em;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(90deg, hsla(53, 84%, 74%, 1) 0%, hsla(336, 87%, 61%, 1) 49%, hsla(262, 81%, 71%, 1) 100%);
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      h3:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
 
       .answer.active{
         display: block;

@@ -8,7 +8,7 @@ import './slider.scss'
 // import four from '../../../assets/backgrounds/bg44.jpg'
 
 import one from '../../../assets/VectorImages/One.jpg'
-import two from '../../../assets/VectorImages/Two.jpg'
+import two from '../../../assets/VectorImages/Five.jpg'
 import three from '../../../assets/VectorImages/Three.jpg'
 import four from '../../../assets/VectorImages/Four.jpg'
 
@@ -57,7 +57,9 @@ const Slideshow = () => {
       >
         {fadeImages.map((fadeImage, index) => (
           <div key={index} style={{position:'relative' , width:'100%'}} >
-            <img style={{ width: w, height:'920px', objectFit:'cover' }} src={fadeImage.img} className='imgslider'/>
+            <img 
+            // style={{ backgroundSize : '100% auto' , height:'920px', objectFit:'cover' }} 
+            src={fadeImage.img} className='imgslider'/>
             <h2 style={{position:'absolute', top: '60%' , left:'10%' , color:'white', fontSize:'2.5rem'}}>{fadeImage.caption}</h2>
           </div>
         ))}
