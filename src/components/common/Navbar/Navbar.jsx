@@ -2,7 +2,9 @@ import React , {useState , useEffect} from 'react';
 import './navbar.scss'
 import { Link } from 'react-router-dom';
 // import logo from '../../../assets/ifseaneww.png'
-import logo from '../../../assets/newLogo/One.png';
+// import logo from '../../../assets/newLogo/One.png';
+import logo from '../../../assets/logos/3.png'
+
 
 
 const Navbar = () => {

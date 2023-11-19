@@ -1,6 +1,8 @@
 import React from 'react'
 import './footer.scss';
-import logo from '../../../assets/newLogo/Three.png';
+// import logo from '../../../assets/newLogo/Three.png';
+import logo from '../../../assets/logos/ISFEA_Light_3.png';
+
 import six from '../../../assets/footer/6.png';
 import seven from '../../../assets/footer/7.png';
 import eight from '../../../assets/footer/8.png';

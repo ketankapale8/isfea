@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import './counter.scss';
 import Countdown from "react-countdown";
-import logo from '../../../assets/newLogo/One.png';
+// import logo from '../../../assets/newLogo/One.png';
+import logo from '../../../assets/logos/3.png';
+
 import CounterBannerImg from '../../../assets/backgrounds/bg21edit.gif'
 
 const Counter = () => {
   // var today = new Date();
 // var priorDate = new Date(new Date().setDate(today.getDate() - 3));
 // console.log(priorDate.getTime());
-let [today , setToday] = useState(new Date('4 Nov 2023'));
-let [date , setDate] = useState(new Date(new Date().setDate(today.getDate() - 57)).getTime())
+let [today , setToday] = useState(new Date('19 Nov 2023'));
+let [date , setDate] = useState(new Date(new Date().setDate(today.getDate() +56)).getTime())
 
 
 

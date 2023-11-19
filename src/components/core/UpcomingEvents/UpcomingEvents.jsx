@@ -1,7 +1,7 @@
 import React , {useState, useEffect} from 'react';
 import './upcomingevents.scss';
 import BannerComp from '../../common/BannerComp/BannerComp';
-import BannerImg from '../../../assets/bgremoved/bg2.png';
+import BannerImg from '../../../assets/bgremoved/bg5.png';
 import One from '../../../assets/ai-gen-images/1.jpg';
 import Two from '../../../assets/ai-gen-images/2.jpg';
 import Three from '../../../assets/ai-gen-images/3.jpg';
