@@ -234,7 +234,7 @@ const keys = Array.from(Array(_items.length).keys());
 
     const upcomingEvents = [
         {
-            title : "Athletics",
+            title : "Athletics ( Multiple Disciplines )  ",
             img : Seventeen,
             desc : "A world class athletics event with multiple subdisciplines with kids competing across the world",
             time : "Summer event , 2024 , Switzerland "
