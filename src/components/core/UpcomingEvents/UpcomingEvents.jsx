@@ -9,6 +9,7 @@ import Four from '../../../assets/ai-gen-images/4.jpg';
 import Five from '../../../assets/ai-gen-images/5.jpg';
 import Six from '../../../assets/ai-gen-images/6.jpg';
 import Seven from '../../../assets/ai-gen-images/7.jpg';
+import Seventeen from '../../../assets/mission/17.jpg'
 
 
 
@@ -231,20 +232,26 @@ const keys = Array.from(Array(_items.length).keys());
         setActiveIdx((length - (items[0] % length)) % length) // prettier-ignore
     }, [items]);
 
+    const upcomingEvents = [
+        {
+            title : "Athletics",
+            img : Seventeen,
+            desc : "A world class athletics event with multiple subdisciplines with kids competing across the world",
+            time : "Summer event , 2024 , Switzerland "
+        }
+    ]
+
     const MobileComp = () => {
       return (
         <div className='eventContainer'>
-          {_items1.map(item=>{
+          {upcomingEvents.map(item=>{
             return (
               <div className='eventBox'>
-                <img src={item.player.image} className='eventImg'/>
+                <img src={item.img} className='eventImg'/>
                 <div className='eventDescContainer'>
-                  <h4>{item.player.title}</h4>
-                  <p>{item.player.desc}</p>
-                  <button className='dateBtn' style={{backgroundColor:`${item.player.color}`}}>{item.player.date}</button>
-
-
-
+                  <h4>{item.title}</h4>
+                  <p>{item.desc}</p>
+                  <button className='dateBtn' style={{backgroundColor:'#ee334e'}}>{item.time}</button>
                 </div>
                 
               </div>
@@ -253,41 +260,62 @@ const keys = Array.from(Array(_items.length).keys());
         </div>
       )
     }
+
+    
   return (
     <div className='upcomingEvents'>
       <BannerComp img={BannerImg} title={"Upcoming Events"}/>
       {w >  760 ? (
-      <div className="carousel__wrap">
-            <div className="carousel__inner">
-                <button className="carousel__btn carousel__btn--prev" onClick={() => prevClick()}>
-                    <i className="carousel__btn-arrow carousel__btn-arrow--left" />
-                </button>
-                <div className="carousel__container">
-                    <ul className="carousel__slide-list">
-                        {items.map((pos, i) => (
-                            <CarouselSlideItem
-                                key={i}
-                                idx={i}
-                                pos={pos}
-                                activeIdx={activeIdx}
-                            />
-                        ))}
-                    </ul>
+    //   <div className="carousel__wrap">
+    //         <div className="carousel__inner">
+    //             <button className="carousel__btn carousel__btn--prev" onClick={() => prevClick()}>
+    //                 <i className="carousel__btn-arrow carousel__btn-arrow--left" />
+    //             </button>
+    //             <div className="carousel__container">
+    //                 <ul className="carousel__slide-list">
+    //                     {items.map((pos, i) => (
+    //                         <CarouselSlideItem
+    //                             key={i}
+    //                             idx={i}
+    //                             pos={pos}
+    //                             activeIdx={activeIdx}
+    //                         />
+    //                     ))}
+    //                 </ul>
+    //             </div>
+    //             <button className="carousel__btn carousel__btn--next" onClick={() => nextClick()}>
+    //                 <i className="carousel__btn-arrow carousel__btn-arrow--right" />
+    //             </button>
+    //             {/* <div className="carousel__dots">
+    //                 {items.slice(0, length).map((pos, i) => (
+    //                     <button
+    //                         key={i}
+    //                         onClick={() => handleDotClick(i)}
+    //                         className={i === activeIdx ? 'dot active' : 'dot'}
+    //                     />
+    //                 ))}
+    //             </div> */}
+    //         </div>
+    //   </div>
+
+    <div>
+        {upcomingEvents.map(item=>{
+            return (
+                <div className='upcomingEventsContainer'>
+                    <img src={item.img} alt="" className='imgContainer' />
+                    <div className="restItems">
+                        <h2>{item.title}</h2>
+                        <p>{item.desc}</p>
+                        <button>{item.time}</button>
+                    </div>
+                
                 </div>
-                <button className="carousel__btn carousel__btn--next" onClick={() => nextClick()}>
-                    <i className="carousel__btn-arrow carousel__btn-arrow--right" />
-                </button>
-                {/* <div className="carousel__dots">
-                    {items.slice(0, length).map((pos, i) => (
-                        <button
-                            key={i}
-                            onClick={() => handleDotClick(i)}
-                            className={i === activeIdx ? 'dot active' : 'dot'}
-                        />
-                    ))}
-                </div> */}
-            </div>
-      </div>
+            )
+        })}
+    </div>
+
+    
+
       ) : (
         <>
           <MobileComp/>
