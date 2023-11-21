@@ -18,7 +18,12 @@ const NewsLetter = () => {
     const templateId = "template_xgxwao5"
     console.log(name , email)
     try {
+      if(email !== ''){
       setLoading(true);
+      }else{
+        toast.error("Please place your email before hitting submit!")
+
+      }
       await emailjs.send(serviceId, templateId, {
        name : "Subscriber",
         recipient : email,
@@ -28,7 +33,7 @@ const NewsLetter = () => {
 
     } catch (error) {
       console.log(error);
-      toast.error("Something went wrong!!")
+      // toast.error("Something went wrong!!")
     } finally {
       setLoading(false);
     }

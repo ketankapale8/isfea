@@ -10,6 +10,7 @@ import BannerComp from '../../common/BannerComp/BannerComp';
 import BannerImg from '../../../assets/bgremoved/bg2.png'
 import Regulations from './Regulations/Regulations';
 import FAQ from '../../common/FAQ/FAQ';
+import Aboutleftcustom from '../../common/AboutLeftCustom/AboutLeftCustom';
 // import BannerComp1 from '../../common/BannerComp1/BannerComp';
 
 
@@ -17,6 +18,7 @@ const About = () => {
   return (
     <div className='about'>
       <BannerComp img={BannerImg} title={"About Us"}/>
+      <Aboutleftcustom/>
      
        <HomeLeft 
        title={"Global Partnerships"} desc={"At the International Sports Federation Education Alliances (ISFEA), we recognize the transformative power of global partnerships in advancing sports education on a worldwide scale. Our commitment to forging these partnerships is at the heart of our mission. We seek to collaborate with international sports federations, educational institutions, governmental bodies, and non-profit organizations to create a seamless network of expertise and resources that transcends geographical boundaries. Through strategic alliances, we aim to pool our collective knowledge, experience, and resources to develop innovative sports education programs, facilitate research initiatives, and promote best practices that benefit athletes, coaches, and sports administrators across the globe. "}

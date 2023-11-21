@@ -210,8 +210,8 @@ $slide-widthJr: 10rem;
     // }
 
     .upcomingEventsContainer{
-        width: 650px;
-        height: 550px;
+        width: 750px;
+        height: auto;
         border: 1px solid transparent;
         flex-direction: column;
         // align-items: center;
@@ -238,11 +238,11 @@ $slide-widthJr: 10rem;
            display: flex;
            flex-direction: column;
            width: auto;
-           line-height: 18px;
+           line-height: 20px;
           align-items: start;
 
            h2{
-            font-size: 2.5rem;
+            font-size: 2rem;
             padding: 5px 0px;
 
             position: relative;
@@ -503,8 +503,8 @@ $slide-widthJr: 10rem;
         // }
 
         .upcomingEventsContainer{
-            width: 650px;
-            height: 550px;
+            width: 850px;
+            height: auto;
             border: 1px solid transparent;
             flex-direction: column;
             // align-items: center;

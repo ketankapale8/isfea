@@ -234,9 +234,12 @@ const keys = Array.from(Array(_items.length).keys());
 
     const upcomingEvents = [
         {
-            title : "Athletics ( Multiple Disciplines )  ",
+            title : "ISFEA International Summer Sports Meet 2024 ",
             img : Seventeen,
             desc : "A world class athletics event with multiple subdisciplines with kids competing across the world",
+            desc1 : "The countdown is on! Join us in Zurich in July 2024",
+            desc2:"Challenge yourself in one of the designated sports and enjoy the summer vibes with sports enthusiasts in the beautiful settings of Zurich. Designed to celebrate the competitive spirit among all of us the event is the perfect platform for budding athletes from all across the world. With various nationalities represented at the event, the Games have a true inclusive, diverse, multi-cultural mix of athletes attending and competing in their favourite sport over a period of 6 days.",
+            desc3 : "Get your friends, colleagues, and teammates ready for this exciting trip you don’t want to miss: This exciting multi-sport event focused on athletics, with the perfect opportunity for playing sports, meeting like-minded people from the international sporting community and building your network, is coming your way.",
             time : "Summer event , 2024 , Switzerland "
         }
     ]
@@ -250,7 +253,10 @@ const keys = Array.from(Array(_items.length).keys());
                 <img src={item.img} className='eventImg'/>
                 <div className='eventDescContainer'>
                   <h4>{item.title}</h4>
-                  <p>{item.desc}</p>
+                  <p>{item.desc1}</p>
+                  <p>{item.desc2}</p>
+                  <p>{item.desc3}</p>
+
                   <button className='dateBtn' style={{backgroundColor:'#ee334e'}}>{item.time}</button>
                 </div>
                 
@@ -305,7 +311,9 @@ const keys = Array.from(Array(_items.length).keys());
                     <img src={item.img} alt="" className='imgContainer' />
                     <div className="restItems">
                         <h2>{item.title}</h2>
-                        <p>{item.desc}</p>
+                        <p>{item.desc1}</p>
+                  <p>{item.desc2}</p>
+                  <p>{item.desc3}</p>
                         <button>{item.time}</button>
                     </div>
                 

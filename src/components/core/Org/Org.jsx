@@ -4,11 +4,11 @@ import BannerImg from '../../../assets/bgremoved/bg3.png'
 import BannerImg1 from '../../../assets/backgrounds/bg5.jpg'
 import Team from './OurTeam/Team';
 
-import One from '../../../assets/teamMembers/1.jpg'
-import Two from '../../../assets/teamMembers/2.jpg'
-import Three from '../../../assets/teamMembers/3.jpeg'
-import Four from '../../../assets/teamMembers/4.jpg'
-import Five from '../../../assets/teamMembers/5.jpg'
+import One from '../../../assets/teamMembers/Picture1.jpg'
+import Two from '../../../assets/teamMembers/Picture2.jpg'
+import Three from '../../../assets/teamMembers/Picture3.jpg'
+import Four from '../../../assets/teamMembers/Picture4.png'
+import Five from '../../../assets/teamMembers/Picture5.jpg'
 import Countries from '../../common/ParticipatingCountries/Countries';
 import Sponsors from '../Sponsors/Sponsors';
 // import BannerComp1 from '../../common/BannerComp1/BannerComp';
@@ -16,7 +16,7 @@ import Sponsors from '../Sponsors/Sponsors';
 const teamArr = [
   {
       title : "Will Spears",
-      position : "Asst Vice President",
+      position : "Picture",
       img : One,
       location : "Germany",
   },  
@@ -49,33 +49,33 @@ const teamArr = [
 const teamArr1 = [
   {
       title : "Vijay Pal Singh",
-      position : "Asst Vice President",
+      position : "Chairman",
       img : One,
       location : "Germany",
   },  
   {
-      title : "Erman Kucuk",
+      title : "Dr. Erman H. Küçük ",
       position : "Secretary General",
       img : Two,
       location : "Greece",
   },
   {
-      title : "Patrick Bellomo",
-      position : "President",
+      title : "Jitendra Sharma ",
+      position : "Chapter Lead  ",
       img : Three,
-      location : "Australia",
+      location : "India",
   },
   {
       title : "Adwait Kashalkar",
-      position : "Head Of Operations",
-      img : Four,
-      location : "South Africa",
+      position : "Chapter Lead  ",
+      img : Five,
+      location : "Singapore",
   },
   {
-      title : "Jitendra Sharma",
-      position : "Executive Director",
+      title : "Patrick Bellomo",
+      position : "Treasurer ",
       location : "Spain",
-      img : Five
+      img : Four
   }
 ]
 
@@ -85,7 +85,7 @@ const Org = () => {
     <div className='org'>
       <BannerComp img={BannerImg} title={"Our team"}/>
       <Team title={"Our executive team"} teamArr={teamArr1}/>
-      <Team title={"Our Team"} teamArr={teamArr}/>
+      {/* <Team title={"Our Team"} teamArr={teamArr}/> */}
       {/* <Countries/> */}
       {/* <Sponsors title={"Our Associations"}/> */}
     </div>
