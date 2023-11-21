@@ -57,12 +57,30 @@ const Slideshow = () => {
       >
         {fadeImages.map((fadeImage, index) => (
           <div key={index} style={{position:'relative' , width:'100%'}} >
-            <img 
-            // style={{ backgroundSize : '100% auto' , height:'920px', objectFit:'cover' }} 
-            src={fadeImage.img} className='imgslider'/>
-            <h2 style={{position:'absolute', top: '60%' , left:'10%' , color:'white', fontSize:'2.5rem'}}>{fadeImage.caption}</h2>
+            {
+            w < 870 ? (
+              <>
+              <img 
+              style={{ width: '100% ' , height:'790px', objectFit:'cover' }} 
+              src={fadeImage.img} />
+              <h2 style={{position:'absolute', top: '60%' , left:'10%' , color:'white', fontSize:'2.5rem'}}>{fadeImage.caption}</h2>
+              
+              </>
+            ) : (
+              <>
+              <img 
+              style={{ width: '100% ' , height:'1200px', objectFit:'cover' }} 
+              src={fadeImage.img} />
+              <h2 style={{position:'absolute', top: '60%' , left:'10%' , color:'white', fontSize:'2.5rem'}}>{fadeImage.caption}</h2>
+              
+              </>
+          )
+          }
+          
           </div>
-        ))}
+          ))
+          
+          }
       </Fade>
     </div>
   )

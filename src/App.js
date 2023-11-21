@@ -17,7 +17,6 @@ import ScrollToTop from './components/common/ScrollToTop/ScrollToTop.jsx';
 import { Toaster } from 'react-hot-toast';
 
 function App() {
-
   let [w , setW] = useState(window.innerWidth)
   //  let width = window.innerWidth;
   function updateSize(){

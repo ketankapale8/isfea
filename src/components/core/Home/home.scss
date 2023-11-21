@@ -6,5 +6,23 @@
     overflow-x: hidden;
     overflow-y: hidden;
     scroll-behavior: smooth;
+
+    .sideComponent {
+        top: 40%;
+        bottom:0;
+        right: 10%;
+        width: 200px;
+        position:fixed;
+        overflow-y:hidden;
+        overflow-x:hidden;
+
+        h4{
+            color: black;
+        }
+      }
+    .main-content {
+        height: 100%;
+        overflow-y: auto; // You can use scroll too
+      }
   
 }

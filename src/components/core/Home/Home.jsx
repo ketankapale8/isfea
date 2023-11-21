@@ -21,13 +21,16 @@ import Slideshow from '../../common/newSlider/NewSlider';
 // import MapComp from '../../common/MapComp/MapComp';
 
 
-
 const Home = () => {
   return (
     <div className='home'>
       <Slideshow/>
       {/* <DummySlider2/> */}
       {/* <BannerComp img={BannerImgNew}/> */}
+      {/* <div className="sideComponent">
+          <h4 >lajdajhdajdajd</h4>
+      </div> */}
+      <div className="main-content">
       <HomeLeft 
        title={"Promoting Athletic and Academic Excellence"} desc={"ISFEA envisions a world where sports and education are seamlessly intertwined, ensuring that individuals not only excel in their chosen sports but also receive a well-rounded education"}
        img={One}
@@ -46,11 +49,12 @@ const Home = () => {
        img={Two}
        desc1={"In doing so, it is creating a world where athletes are not just champions in their respective sports but also well-educated, responsible individuals prepared for success in all aspects of life."}/>
 
-
        <Mission/>
+
+      </div>
+       <Counter/>
        {/* <MapComp/> */}
        {/* <Sponsors title={"Our Sponsors"}/> */}
-       <Counter/>
     </div>
     
   )
