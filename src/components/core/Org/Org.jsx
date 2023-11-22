@@ -51,32 +51,33 @@ const teamArr1 = [
       title : "Vijay Pal Singh",
       position : "Chairman",
       img : One,
-      location : "Germany",
+      location : "",
   },  
   {
       title : "Dr. Erman H. Küçük ",
       position : "Secretary General",
       img : Two,
-      location : "Greece",
+      location : "",
   },
   {
+    title : "Patrick Bellomo",
+    position : "Treasurer ",
+    location : "",
+    img : Four
+},
+  {
       title : "Jitendra Sharma ",
-      position : "Chapter Lead  ",
+      position : "Chapter Lead , India  ",
       img : Three,
-      location : "India",
+      location : "",
   },
   {
       title : "Adwait Kashalkar",
-      position : "Chapter Lead  ",
+      position : "Chapter Lead ,Singapore ",
       img : Five,
-      location : "Singapore",
+      location : "",
   },
-  {
-      title : "Patrick Bellomo",
-      position : "Treasurer ",
-      location : "Spain",
-      img : Four
-  }
+ 
 ]
 
 

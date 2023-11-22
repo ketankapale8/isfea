@@ -28,11 +28,11 @@ const Team = ({title , teamArr}) => {
                             src={item.img} alt="" className='teamMemberImg' />
                             <div className="desc">
                             <motion.h3
-                                whileHover={{scale:1.05 , originX: 0, color:'#0d6efd'}}
+                                whileHover={{scale:1.05 , originX: 0, color:'#1f1957'}}
                                 transition={{type:'string', stiffness: 300}}
                             className="teamMemberTitle">{item.title}</motion.h3>
                             <p className='position'>{item.position}</p>
-                            <p className='position'>{item.location}</p>
+                            {/* <p className='position'>{item.location}</p> */}
 
 
                             </div>

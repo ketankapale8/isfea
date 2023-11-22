@@ -29,10 +29,10 @@ const fadeImages = [
     caption: 'Creating Opportunities'
   },
 
-  {
-    img: four,
-    caption: 'Finishing Touches.'
-  },
+  // {
+  //   img: four,
+  //   caption: 'Finishing Touches.'
+  // },
 ];
 
 

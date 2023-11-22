@@ -144,10 +144,10 @@ const Regulations = () => {
         }
     }
   return (<div className='regulationsMain'>
-        <button onClick={()=>Toggle()}>{title} Regulations</button>
+        <button onClick={()=>Toggle()}>{title} Regulations </button>
         {showReg && (
         <div className='regulations'>
-                <h3 className="regulationsTitle">Organization Regulations</h3>
+                <h3 className="regulationsTitle">Organization Regulations (to be confirmed)</h3>
                     {regulationsArr.map(item=>{
                         return (
                             <div className="regulationsContainer">
