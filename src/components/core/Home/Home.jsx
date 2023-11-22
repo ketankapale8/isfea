@@ -18,6 +18,7 @@ import Three from '../../../assets/newassets/7.jpg'
 import DummySlider2 from '../../common/Slider/Slider';
 import Counter from '../../common/Counter/Counter';
 import Slideshow from '../../common/newSlider/NewSlider';
+import NewsLetter from '../../common/Newsletter/NewsLetter';
 // import MapComp from '../../common/MapComp/MapComp';
 
 
@@ -55,6 +56,7 @@ const Home = () => {
       
 
        <Mission/>
+       {/* <NewsLetter/> */}
        <Counter/>
        {/* <MapComp/> */}
        {/* <Sponsors title={"Our Sponsors"}/> */}

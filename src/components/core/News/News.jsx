@@ -4,6 +4,7 @@ import Sponsors from '../Sponsors/Sponsors'
 import BannerComp from '../../common/BannerComp/BannerComp';
 import BannerImg from '../../../assets/bgremoved/bg4.png'
 import {motion} from 'framer-motion';
+import NewsLetter from '../../common/Newsletter/NewsLetter';
 
 // import BannerComp1 from '../../common/BannerComp1/BannerComp';
 
@@ -49,6 +50,7 @@ const News = () => {
       </div>
         
     </div>
+    <NewsLetter/>
       {/* <Sponsors title={"Our Sponsors"}/> */}
     
     </>

@@ -10,6 +10,7 @@ import Five from '../../../assets/ai-gen-images/5.jpg';
 import Six from '../../../assets/ai-gen-images/6.jpg';
 import Seven from '../../../assets/ai-gen-images/7.jpg';
 import Seventeen from '../../../assets/mission/17.jpg'
+import NewsLetter from '../../common/Newsletter/NewsLetter';
 
 
 
@@ -330,6 +331,7 @@ const keys = Array.from(Array(_items.length).keys());
         </>
       )}
 
+      <NewsLetter/>
     </div>
   )
 

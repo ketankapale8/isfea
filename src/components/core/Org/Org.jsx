@@ -86,6 +86,7 @@ const Org = () => {
     <div className='org'>
       <BannerComp img={BannerImg} title={"Our team"}/>
       <Team title={"Our executive team"} teamArr={teamArr1}/>
+      
       {/* <Team title={"Our Team"} teamArr={teamArr}/> */}
       {/* <Countries/> */}
       {/* <Sponsors title={"Our Associations"}/> */}

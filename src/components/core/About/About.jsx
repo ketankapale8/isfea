@@ -11,6 +11,7 @@ import BannerImg from '../../../assets/bgremoved/bg2.png'
 import Regulations from './Regulations/Regulations';
 import FAQ from '../../common/FAQ/FAQ';
 import Aboutleftcustom from '../../common/AboutLeftCustom/AboutLeftCustom';
+import NewsLetter from '../../common/Newsletter/NewsLetter';
 // import BannerComp1 from '../../common/BannerComp1/BannerComp';
 
 
@@ -38,6 +39,7 @@ const About = () => {
        desc1={"ISFEA also recognizes the significance of effective sports administration in the success and sustainability of sports organizations. We work to equip sports administrators with the necessary skills, tools, and resources to manage sports programs, events, and institutions efficiently. By focusing on sports administration, we aim to enhance the overall management of sports activities, which is essential for the growth, sustainability, and ethical governance of the sports industry."}/> */}
        <FAQ/>
        <Regulations/>
+       <NewsLetter/>
     </div>
     
   )
