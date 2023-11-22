@@ -10,7 +10,7 @@ const questions = [
       {
       id: 2,
       question: 'How can my organization or institution become a member of ISFEA',
-      answer: 'To become a member, please visit our website and follow the membership application process outlined there. Membership is open to organizations and institutions that share our mission and values.',
+      answer: 'Membership is open to organizations and institutions that share our mission and values. To become a member , please write to info@isfea.org',
     },
       {
       id: 3,
