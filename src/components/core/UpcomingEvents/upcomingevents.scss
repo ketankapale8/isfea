@@ -304,179 +304,179 @@ $slide-widthJr: 10rem;
         overflow-y: hidden;
         scroll-behavior: smooth;
     
-        .carousel__wrap {
-            margin-top: 10%;
-            align-items: center;
-            display: flex;
-            flex: 1;
-            justify-content: center;
-            position: relative;
+        // .carousel__wrap {
+        //     margin-top: 10%;
+        //     align-items: center;
+        //     display: flex;
+        //     flex: 1;
+        //     justify-content: center;
+        //     position: relative;
             
-            width: 85%;
-            left: 50%;
-            transform: translateX(-50%);
-        }
+        //     width: 85%;
+        //     left: 50%;
+        //     transform: translateX(-50%);
+        // }
         
-        .carousel__inner {
-            height: 40rem;
-            position: relative;
-            width: calc(#{$slide-width * 3});
-        }
+        // .carousel__inner {
+        //     height: 40rem;
+        //     position: relative;
+        //     width: calc(#{$slide-width * 3});
+        // }
         
-        .carousel__container {
-            height: 100%;
-            overflow: hidden;
-            position: relative;
-            width: 100%;
-        }
+        // .carousel__container {
+        //     height: 100%;
+        //     overflow: hidden;
+        //     position: relative;
+        //     width: 100%;
+        // }
         
-        .carousel__slide-list {
-            height: 100%;
-            left: 25%;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            position: absolute;
-            transform: translateX(-50%);
-            width: calc(#{($slide-count + 0.5) * $slide-width * 2});
-        }
+        // .carousel__slide-list {
+        //     height: 100%;
+        //     left: 25%;
+        //     list-style-type: none;
+        //     margin: 0;
+        //     padding: 0;
+        //     position: absolute;
+        //     transform: translateX(-50%);
+        //     width: calc(#{($slide-count + 0.5) * $slide-width * 2});
+        // }
         
-        .carousel__slide-item {
-            display: inline-block;
-            height: $slide-width;
-            margin: 0;
-            padding: 6rem;
-            position: absolute;
-            transition: all 0.3s;
-            width: $slide-width;
+        // .carousel__slide-item {
+        //     display: inline-block;
+        //     height: $slide-width;
+        //     margin: 0;
+        //     padding: 6rem;
+        //     position: absolute;
+        //     transition: all 0.3s;
+        //     width: $slide-width;
           
-        }
+        // }
         
-        .carousel__slide-item-img-link {
-            cursor: zoom-in;
-            display: flex;
-            height: 440px;
-            display: flex;
-            flex-direction: row;
-            overflow: hidden;
-            position: relative;
-            width: 100%;
+        // .carousel__slide-item-img-link {
+        //     cursor: zoom-in;
+        //     display: flex;
+        //     height: 440px;
+        //     display: flex;
+        //     flex-direction: row;
+        //     overflow: hidden;
+        //     position: relative;
+        //     width: 100%;
         
-            img {
-                height: 350px;
-                width: 410px;
-                object-fit: cover;
-                transition: all 0.5s ease;
-                border: 1px solid transparent;
-                border-radius: 30px;
-            }
+        //     img {
+        //         height: 350px;
+        //         width: 410px;
+        //         object-fit: cover;
+        //         transition: all 0.5s ease;
+        //         border: 1px solid transparent;
+        //         border-radius: 30px;
+        //     }
         
-            &::after {
-                align-items: center;
-                color: white;
-                // content: 'read more';
-                display: flex;
-                height: 100%;
-                justify-content: center;
-                opacity: 0;
-                position: absolute;
-                transition: all 0.5s ease;
-                width: 250px;
-                height: 220px;
-                background: rgba(black, 0.5);
-            }
+        //     &::after {
+        //         align-items: center;
+        //         color: white;
+        //         // content: 'read more';
+        //         display: flex;
+        //         height: 100%;
+        //         justify-content: center;
+        //         opacity: 0;
+        //         position: absolute;
+        //         transition: all 0.5s ease;
+        //         width: 250px;
+        //         height: 220px;
+        //         background: rgba(black, 0.5);
+        //     }
         
-            &:hover {
-                &::after {
-                    opacity: 1;
-                }
+        //     &:hover {
+        //         &::after {
+        //             opacity: 1;
+        //         }
         
-                img {
-                    transform: scale(1.1);
-                    border: 1px solid transparent;
+        //         img {
+        //             transform: scale(1.1);
+        //             border: 1px solid transparent;
 
-                    border-radius: 30px;
-                }
-            }
-        }
+        //             border-radius: 30px;
+        //         }
+        //     }
+        // }
         
-        .carousel-slide-item__body {
-            max-width: 410px;
+        // .carousel-slide-item__body {
+        //     max-width: 410px;
 
-            bottom: 7.5rem;
-            height: 10%;
-            position: absolute;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            // margin-left: 20px;
-            // margin-right: 20px;
+        //     bottom: 7.5rem;
+        //     height: 10%;
+        //     position: absolute;
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     // margin-left: 20px;
+        //     // margin-right: 20px;
         
-            h4 {
-                margin: 0.7rem 0 0;
-                text-transform: uppercase;
-            font-size: 1.1rem;
+        //     h4 {
+        //         margin: 0.7rem 0 0;
+        //         text-transform: uppercase;
+        //     font-size: 1.1rem;
 
-            }
+        //     }
         
-            p {
-                font-size: 0.7rem;
-                width: 360px;
-                line-height: 1;
-                // margin: 0.7rem 0 0;
-            }
+        //     p {
+        //         font-size: 0.7rem;
+        //         width: 360px;
+        //         line-height: 1;
+        //         // margin: 0.7rem 0 0;
+        //     }
 
-            .dateBtn{
-                margin-top: 30px;
-                width: 220px;
-                height: auto;
-                font-size: 1rem;
-                text-align: center;
+        //     .dateBtn{
+        //         margin-top: 30px;
+        //         width: 220px;
+        //         height: auto;
+        //         font-size: 1rem;
+        //         text-align: center;
                 
-                border: 1px solid transparent;
-                border-radius:  20px;
-                background-color: yellowgreen;
-            }
-        }
+        //         border: 1px solid transparent;
+        //         border-radius:  20px;
+        //         background-color: yellowgreen;
+        //     }
+        // }
         
-        .carousel__btn {
-            align-items: center;
-            background: 0;
-            border: 0;
-            cursor: pointer;
-            display: flex;
-            justify-content: center;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            margin: 20px 60px;
+        // .carousel__btn {
+        //     align-items: center;
+        //     background: 0;
+        //     border: 0;
+        //     cursor: pointer;
+        //     display: flex;
+        //     justify-content: center;
+        //     position: absolute;
+        //     top: 50%;
+        //     transform: translateY(-50%);
+        //     margin: 20px 60px;
         
-            &--prev {
-                left: -10rem;
-            }
+        //     &--prev {
+        //         left: -10rem;
+        //     }
         
-            &--next {
-                right: -10rem;
-            }
-        }
+        //     &--next {
+        //         right: -10rem;
+        //     }
+        // }
         
-        .carousel__btn-arrow {
-            border: solid black;
-            border-width: 0 0.4rem 0.4rem 0;
-            margin: 0px 40px;
-            height: 2rem;
-            padding: 3px;
-            width: 2rem;
-            z-index: 10;
+        // .carousel__btn-arrow {
+        //     border: solid black;
+        //     border-width: 0 0.4rem 0.4rem 0;
+        //     margin: 0px 40px;
+        //     height: 2rem;
+        //     padding: 3px;
+        //     width: 2rem;
+        //     z-index: 10;
         
-            &--left {
-                transform: rotate(135deg);
-            }
+        //     &--left {
+        //         transform: rotate(135deg);
+        //     }
         
-            &--right {
-                transform: rotate(-45deg);
-            }
-        }
+        //     &--right {
+        //         transform: rotate(-45deg);
+        //     }
+        // }
         
         // .carousel__dots {
         //     display: inline-block;
@@ -535,7 +535,7 @@ $slide-widthJr: 10rem;
               align-items: start;
     
                h2{
-                font-size: 2.5rem;
+                font-size: 2rem;
                 padding: 5px 0px;
     
                 position: relative;
@@ -796,14 +796,14 @@ $slide-widthJr: 10rem;
 
 
         .upcomingEventsContainer{
-            width: 450px;
+            width: 650px;
             height: 550px;
             border: 1px solid transparent;
             flex-direction: column;
             // align-items: center;
             justify-content: center;
             display: flex;
-            margin: 20px 0px;
+            margin: 220px 20px;
             padding-bottom: 10px;
             border-radius: 20px;
     
@@ -828,7 +828,7 @@ $slide-widthJr: 10rem;
               align-items: start;
     
               h2{
-                font-size: 2.5rem;
+                font-size: 1.2rem;
                 padding: 5px 0px;
     
                 position: relative;
