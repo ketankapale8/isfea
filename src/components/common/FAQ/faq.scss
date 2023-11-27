@@ -229,13 +229,14 @@ button:focus {
   .container{
     width: auto;
     padding: 0rem;
-    text-align: center;
+    text-align: start;
 
     .heading{
       color: $primary-text-color;
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  margin-left: 45%;
     }
 
     .faq{
@@ -252,6 +253,7 @@ button:focus {
       h3{
         color: black;
         cursor: pointer;
+        font-size: 0.6rem;
       position: relative;
       padding: 5px 5px;
     
@@ -261,12 +263,12 @@ button:focus {
       h3::after {
         content: '';
         position: absolute;
-        width: 100%;
+        width: 94%;
         transform: scaleX(0);
         border-radius: 15px;
         height: 0.15em;
         bottom: 0;
-        left: 0;
+        left: 0.2rem;
         background: linear-gradient(90deg, hsla(53, 84%, 74%, 1) 0%, hsla(336, 87%, 61%, 1) 49%, hsla(262, 81%, 71%, 1) 100%);
         transform-origin: bottom right;
         transition: transform 0.25s ease-out;
