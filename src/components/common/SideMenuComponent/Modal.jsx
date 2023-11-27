@@ -212,7 +212,7 @@ const routes = [
 
     {
       path: "/contactus",
-      name: "Contact",
+      name: "Contact Us",
       // icon: <GiTalk />,
     },
     // {
