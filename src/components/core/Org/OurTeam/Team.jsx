@@ -7,10 +7,7 @@ import Four from '../../../../assets/teamMembers/4.jpg'
 import Five from '../../../../assets/teamMembers/5.jpg';
 import {motion} from 'framer-motion'
 
-
-
 const Team = ({title , teamArr}) => {
-
     
   return (
     <div className='team'>
