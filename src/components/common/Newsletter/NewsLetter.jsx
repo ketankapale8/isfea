@@ -28,7 +28,7 @@ const NewsLetter = () => {
        name : "Subscriber",
         recipient : email,
       });
-      toast.success("Thankyou for your intrest. Please check your mail for more details")
+      toast.success("Thank you for your interest. Please check your mail for more details")
       // alert("email successfully sent check inbox");
 
     } catch (error) {
@@ -44,7 +44,7 @@ const NewsLetter = () => {
             {/* <img className='newsletterpng' src={newsletterPng}/> */}
             <div className="left">
                 <div className="newsLetterTitle">Stay in the loop</div>
-                <p className="newsLetterDesc">Join our newsletter to get latest ISFEA updates.</p>
+                <p className="newsLetterDesc">Join our newsletter to get the latest updates.</p>
 
             </div>
             <div className="right">

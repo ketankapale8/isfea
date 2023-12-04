@@ -1,14 +1,19 @@
 .newsletter{
     width: auto;
     height: 300px;
-    margin-top: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     .newsLetterContainer{
-        width: 80%;
-        margin-left: 150px;
-        margin-right: 150px;
-        height: 250px;
-        background-color: #4b4acf;
+        width: 67%;
+        
+        margin-left: 330px;
+        margin-right: 300px;
+        height: 190px;
+        // background-color: #4b4acf;
+        background-color: #d3d1d1;
         border: 1px solid transparent;
         border-radius: 40px;
         display: flex;
@@ -36,11 +41,13 @@
 
             .newsLetterTitle{
                 font-size: 2.5rem;
-                color: whitesmoke;
+                color: black;
             }
             .newsLetterDesc{
                 font-size: 1.2rem;
-                color: whitesmoke;
+                color: black;
+
+                // color: whitesmoke;
 
             }
         }
@@ -53,17 +60,17 @@
             .emailBox{
                 width: 250px;
                 height: 50px;
-                color: white;
+                color: black;
                 background-color: transparent;
         
                 // background-color: white;
-                border: 1px solid white;
+                border: 1px solid #838181;
                 border-radius: 10px;
                 
             }
 
             .emailBox::placeholder{
-                color: white;
+                color: #838181;
                 padding-left: 20px;
             }
 
@@ -76,7 +83,12 @@
             .subscribeBtn{
                 width: 140px;
                 height: 50px;
-                background-color: #fcb131;
+  font-family: 'Roboto Slab', serif;
+
+                
+                // background-color: #fcb131;
+                background-color: black;
+                // color: black;
                 color: white;
                 border: 1px solid transparent;
                 border-radius: 20px;

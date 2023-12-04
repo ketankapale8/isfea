@@ -13,13 +13,13 @@
 
         .left{
             width: 600px;
-            padding-top: 30px;
+            padding-top: 50px;
             .imgContainer{
                 width: 480px;
-                height: 460px;
-                object-fit: cover;
-                border-top-left-radius: 80px;
-                border-bottom-right-radius: 80px;
+                height: 550px;
+                object-fit: contain;
+                border-top-left-radius: 0px;
+                border-bottom-right-radius: 0px;
                 // border-radius: 30px;
                 border: 2px solid transparent;
             }

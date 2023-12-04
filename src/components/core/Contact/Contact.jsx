@@ -105,29 +105,29 @@ const Contact = () => {
             >
              <div className="rightContainer">
               <div className="items">
-              <h2>Name:</h2>
-              <input placeholder='Enter your name' value={name} onChange={(e)=> setName(e.target.value)} />
+              <div className='formItems'>Name:</div>
+              <input value={name} onChange={(e)=> setName(e.target.value)} />
 
               </div>
           
               <div className="items">
-              <h2>Email:</h2>
-              <input placeholder='Enter your email'
+              <div className='formItems'>Email:</div>
+              <input 
                 value={email} onChange={(e)=> setEmail(e.target.value)} 
               />
 
               </div>
               <div className="items">
-              <h2>Subject:</h2>
-              <input placeholder='Enter your subject'
+              <div className='formItems'>Subject:</div>
+              <input 
                 value={subject} onChange={(e)=> setSubject(e.target.value)} 
               />
 
               </div>
 
               <div className="items">
-              <h2>Query:</h2>
-              <textarea placeholder='Enter your query'
+              <div className='formItems'>Query:</div>
+              <textarea 
                 value={query} onChange={(e)=> setQuery(e.target.value)} 
               />
 
