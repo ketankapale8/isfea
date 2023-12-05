@@ -13,13 +13,13 @@
 
         .left{
             width: 500px;
-            padding-top: 30px;
+            // padding-top: 30px;
             .imgContainer{
                 width: 450px;
-                height: 320px;
-                object-fit: cover;
-                border-top-left-radius: 80px;
-                border-bottom-right-radius: 80px;
+                height: 350px;
+                object-fit: contain;
+                border-top-left-radius: 0px;
+                border-bottom-right-radius: 0px;
                 // border-radius: 30px;
                 border: 2px solid transparent;
             }
@@ -177,9 +177,9 @@
                 .imgContainer{
                     width: 300px !important;
                     height: 300px !important;
-                    object-fit: cover;
-                    border-top-left-radius: 120px;
-                border-bottom-right-radius: 120px;
+                    object-fit: contain;
+                    border-top-left-radius: 0px;
+                border-bottom-right-radius: 0px;
                     // object-fit: contain;
                 }
             }

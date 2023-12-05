@@ -5,18 +5,18 @@ import {motion} from 'framer-motion'
 
 const HomeRight = ({title , desc , img , desc1}) => {
   return (
-    <motion.div className='homeleft'
+    <div className='homeleft'
     initial={{x : 200}}
     animate={{x : -10}}
     transition={{ delay :0.3 , duration : 1 , type:'spring' , stiffness : 120}}
     >
           <div className="homeLeftContainer">
               <div className="right">
-              <motion.div 
+              <div 
               
               whileHover={{scale:1.1 , originX: 0, color:'#0d6efd'}}
                 transition={{type:'string', stiffness: 300}}
-              className="title">{title}</motion.div>
+              className="title">{title}</div>
                   <p className="desc">{desc}</p>
                   <p className="desc">{desc1}</p>
 
@@ -27,7 +27,7 @@ const HomeRight = ({title , desc , img , desc1}) => {
 
           </div>
 
-    </motion.div>
+    </div>
   )
 }
 

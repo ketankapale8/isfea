@@ -11,9 +11,15 @@ import BannerImg from '../../../assets/Banner3.jpg'
 import Sponsors from '../Sponsors/Sponsors';
 import BannerImgNew from '../../../assets/backgrounds/bg21.jpeg'
 
-import One from '../../../assets/newassets/1.jpeg'
-import Two from '../../../assets/newassets/8.jpg'
-import Three from '../../../assets/newassets/7.jpg'
+// import One from '../../../assets/newassets/1.jpeg'
+// import Two from '../../../assets/newassets/8.jpg'
+// import Three from '../../../assets/newassets/7.jpg'
+
+import One from '../../../assets/newassets/Home1.jpg'
+import Two from '../../../assets/newassets/Home2.jpg'
+import Three from '../../../assets/newassets/Home3.jpg'
+
+
 
 import DummySlider2 from '../../common/Slider/Slider';
 import Counter from '../../common/Counter/Counter';
@@ -44,11 +50,11 @@ const Home = () => {
       title={"Facilitating Scholarships and Opportunities"}
       desc={"The organization actively works to provide educational scholarships and opportunities for athletes to pursue higher education while pursuing their athletic dreams."}
       desc1={"ISFEA acts as a bridge between international sports federations and educational institutions. It collaborates with sports organizations, schools, universities, and colleges to create a symbiotic relationship that benefits both athletes and the educational community."}
-        img={Three}
+        img={Two}
       />
     <HomeLeft 
        title={"Youth Development Programs"} desc={"The International Sports Federation for Education Alliances plays a crucial role in ensuring that individuals pursuing sports are not left behind in their educational pursuits. By creating partnerships between sports federations and educational institutions, providing scholarships, and advocating for balanced development, ISFEA is making significant strides in its mission to harmonize sports and education"}
-       img={Two}
+       img={Three}
        desc1={"In doing so, it is creating a world where athletes are not just champions in their respective sports but also well-educated, responsible individuals prepared for success in all aspects of life."}/>
 
 
