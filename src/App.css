@@ -1,7 +1,11 @@
 
 .App{
   margin: 0;
+  /* src: url('./fonts/Moon2.0-Bold.otf') format('truetype'); */
+  /* font-family: 'Moon'; */
   /* font-family: 'Nunito', sans-serif; */
   font-family: 'Roboto Slab', serif;
+  /* font-family: 'Inter', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
 
 }

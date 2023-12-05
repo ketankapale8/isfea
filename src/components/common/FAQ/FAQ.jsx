@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useState} from 'react';
 import './faq.scss';
 
 const questions = [
@@ -48,6 +48,18 @@ const questions = [
   
 
 const FAQ = () => {
+  const [showFaq , setShowFaq] = useState(false);
+
+
+  function Toggle(){
+    if(showFaq == false){
+      setShowFaq(true);
+        // setTitle('-')
+    }else{
+      setShowFaq(false);
+        // setTitle('+')
+    }
+}
 
 
     const [searchTerm, setSearchTerm] = React.useState('');
@@ -78,10 +90,12 @@ const FAQ = () => {
   return (
     <div>
          <div className='container'>
-      <h2 className="heading">FAQs</h2>
+      <h3 className="heading" onClick={()=>Toggle()} >FAQs</h3>
+      {showFaq && (
       <section className='faq'>
        {questions.map(item => <Question question={item.question} answer={item.answer} />)}
-      </section>      
+      </section> 
+      )}     
     </div>
     </div>
   )
