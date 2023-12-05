@@ -269,70 +269,72 @@ const keys = Array.from(Array(_items.length).keys());
     }
 
     
-  return (
-    <div className='upcomingEvents'>
-      <BannerComp img={BannerImg} title={"Upcoming Events"}/>
-      {w >  760 ? (
-    //   <div className="carousel__wrap">
-    //         <div className="carousel__inner">
-    //             <button className="carousel__btn carousel__btn--prev" onClick={() => prevClick()}>
-    //                 <i className="carousel__btn-arrow carousel__btn-arrow--left" />
-    //             </button>
-    //             <div className="carousel__container">
-    //                 <ul className="carousel__slide-list">
-    //                     {items.map((pos, i) => (
-    //                         <CarouselSlideItem
-    //                             key={i}
-    //                             idx={i}
-    //                             pos={pos}
-    //                             activeIdx={activeIdx}
-    //                         />
-    //                     ))}
-    //                 </ul>
-    //             </div>
-    //             <button className="carousel__btn carousel__btn--next" onClick={() => nextClick()}>
-    //                 <i className="carousel__btn-arrow carousel__btn-arrow--right" />
-    //             </button>
-    //             {/* <div className="carousel__dots">
-    //                 {items.slice(0, length).map((pos, i) => (
-    //                     <button
-    //                         key={i}
-    //                         onClick={() => handleDotClick(i)}
-    //                         className={i === activeIdx ? 'dot active' : 'dot'}
-    //                     />
-    //                 ))}
-    //             </div> */}
-    //         </div>
-    //   </div>
+  return (<>
+  
+  <div className='upcomingEvents'>
+    <BannerComp img={BannerImg} title={"Upcoming Events"}/>
+    {w >  760 ? (
+  //   <div className="carousel__wrap">
+  //         <div className="carousel__inner">
+  //             <button className="carousel__btn carousel__btn--prev" onClick={() => prevClick()}>
+  //                 <i className="carousel__btn-arrow carousel__btn-arrow--left" />
+  //             </button>
+  //             <div className="carousel__container">
+  //                 <ul className="carousel__slide-list">
+  //                     {items.map((pos, i) => (
+  //                         <CarouselSlideItem
+  //                             key={i}
+  //                             idx={i}
+  //                             pos={pos}
+  //                             activeIdx={activeIdx}
+  //                         />
+  //                     ))}
+  //                 </ul>
+  //             </div>
+  //             <button className="carousel__btn carousel__btn--next" onClick={() => nextClick()}>
+  //                 <i className="carousel__btn-arrow carousel__btn-arrow--right" />
+  //             </button>
+  //             {/* <div className="carousel__dots">
+  //                 {items.slice(0, length).map((pos, i) => (
+  //                     <button
+  //                         key={i}
+  //                         onClick={() => handleDotClick(i)}
+  //                         className={i === activeIdx ? 'dot active' : 'dot'}
+  //                     />
+  //                 ))}
+  //             </div> */}
+  //         </div>
+  //   </div>
 
-    <div>
-        {upcomingEvents.map(item=>{
-            return (
-                <div className='upcomingEventsContainer'>
-                    <img src={item.img} alt="" className='imgContainer' />
-                    <div className="restItems">
-                        <h2>{item.title}</h2>
-                        <p>{item.desc1}</p>
-                  <p>{item.desc2}</p>
-                  <p>{item.desc3}</p>
-                        <button>{item.time}</button>
-                    </div>
-                
-                </div>
-            )
-        })}
-    </div>
+  <div>
+      {upcomingEvents.map(item=>{
+          return (
+              <div className='upcomingEventsContainer'>
+                  <img src={item.img} alt="" className='imgContainer' />
+                  <div className="restItems">
+                      <h2>{item.title}</h2>
+                      <p>{item.desc1}</p>
+                <p>{item.desc2}</p>
+                <p>{item.desc3}</p>
+                      <button>{item.time}</button>
+                  </div>
+              
+              </div>
+          )
+      })}
+  </div>
 
-    
+  
 
-      ) : (
-        <>
-          <MobileComp/>
-        </>
-      )}
+    ) : (
+      <>
+        <MobileComp/>
+      </>
+    )}
 
-      <NewsLetter/>
-    </div>
+  </div>
+    <NewsLetter/>
+  </>
   )
 
 }

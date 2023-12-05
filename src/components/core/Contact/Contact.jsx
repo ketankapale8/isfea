@@ -1,6 +1,6 @@
 import React , {useState , useEffect , useRef} from 'react';
 import './contact.scss';
-import img from '../../../assets/contactus/2.jpeg'
+import img from '../../../assets/contactus/ContactUsImg.jpg'
 import BannerComp from '../../common/BannerComp/BannerComp';
 import BannerImg from '../../../assets/bgremoved/bg1.png';
 import {motion} from 'framer-motion';
@@ -90,15 +90,15 @@ const Contact = () => {
 
     <div className='contactleft'>
         <div className="contactLeftContainer">
-            <motion.div className="left"
+            <div className="left"
               initial={{x : -200}}
               animate={{x : -10}}
               transition={{ delay :0.3 , duration : 1 , type:'spring' , stiffness : 120}}
             >
                 <img src={img} alt="" className='imgContainer'/>
-            </motion.div>
+            </div>
 
-            <motion.div className="right"
+            <div className="right"
                initial={{x : 200}}
                animate={{x : -10}}
                transition={{ delay :0.3 , duration : 1 , type:'spring' , stiffness : 120}}
@@ -138,7 +138,7 @@ const Contact = () => {
 
              </div>
 
-            </motion.div>
+            </div>
         </div>
     <Confirm 
         text={'Thankyou for placing your information. Please check your inbox'}

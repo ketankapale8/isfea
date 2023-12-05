@@ -4,7 +4,7 @@ import dot from '../../../../assets/regulations/rec.png'
 
 const Regulations = () => {
     const [showReg , setShowReg] = useState(false);
-    const [title , setTitle] = useState('Show')
+    const [title , setTitle] = useState('+')
     const regulationsArr = [
         {
             title : "Participants (Art. 1):",
@@ -137,14 +137,14 @@ const Regulations = () => {
     function Toggle(){
         if(showReg == false){
             setShowReg(true);
-            setTitle('Hide')
+            setTitle('-')
         }else{
             setShowReg(false);
-            setTitle('Show')
+            setTitle('+')
         }
     }
   return (<div className='regulationsMain'>
-        <button onClick={()=>Toggle()}>{title} Regulations </button>
+        <button onClick={()=>Toggle()} className='regulationBtn'>{title} Regulations </button>
         {showReg && (
         <div className='regulations'>
                 <h3 className="regulationsTitle">Organization Regulations (to be confirmed)</h3>

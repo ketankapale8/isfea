@@ -8,7 +8,7 @@ const BannerComp = ({img , title}) => {
     <div className='banner'>
         <div className="bannerContainer">
             <div className="left">
-                <h3>{title}</h3>
+                <div className='commonTitle'>{title}</div>
             </div>
             <div className="right">
               <img src={img} alt="bannerImg" className='bannerImg'/>

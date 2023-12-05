@@ -32,7 +32,7 @@ const News = () => {
       {newsArr.map(item=>{
         return (
           <>
-            <motion.div className="newsBox"
+            <div className="newsBox"
                   initial={{x : -200}}
                   animate={{x : -10}}
                   transition={{ delay :0.3 , duration : 1 , type:'spring' , stiffness : 120}}
@@ -42,7 +42,7 @@ const News = () => {
               <p className="desc">{item.desc}</p>
               <p className="desc">{item?.desc1}</p>
 
-            </motion.div>
+            </div>
           
           </>
         )

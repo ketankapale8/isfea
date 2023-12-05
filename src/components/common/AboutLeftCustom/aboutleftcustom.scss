@@ -33,6 +33,10 @@
             gap: 0px;
             text-align: start;
 
+            ul{
+                padding-top: 2px;
+            }
+
             
 
             .title{
@@ -64,8 +68,9 @@
               }
 
             .desc{
-                
+                padding-top: 10px;
                 font-size: 1.1rem;
+                line-height: 24px;
                 text-align: justify;
             }
         }

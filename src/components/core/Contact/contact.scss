@@ -2,6 +2,7 @@
     width: auto;
     height: auto;
     padding-bottom: 10px;
+    background-color: #fefefe;
     // background-image: url('../../../assets/backgrounds/bg15.jpg');
     // width: 100%;
     // object-fit: fill;
@@ -33,14 +34,14 @@
     
             .left{
                 width: 600px;
-                padding-top: 120px;
+                padding-top: 100px;
 
                 .imgContainer{
                     width: 450px;
-                    height: 520px;
+                    height: 560px;
                     object-fit: cover;
-                    border-top-left-radius: 80px;
-                    border-bottom-right-radius: 80px;
+                    border-top-left-radius: 0px;
+                    border-bottom-right-radius: 0px;
                     // border-radius: 30px;
                     border: 2px solid transparent;
                 }

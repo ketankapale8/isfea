@@ -5,9 +5,9 @@ import BannerImg1 from '../../../assets/backgrounds/bg5.jpg'
 import Team from './OurTeam/Team';
 
 import One from '../../../assets/teamMembers/Picture1.jpg'
-import Two from '../../../assets/teamMembers/Picture2.jpg'
+import Two from '../../../assets/teamMembers/8.jpg'
 import Three from '../../../assets/teamMembers/Picture3.jpg'
-import Four from '../../../assets/teamMembers/Picture4.png'
+import Four from '../../../assets/teamMembers/PatrickNew.png'
 import Five from '../../../assets/teamMembers/Picture5.jpg'
 import Countries from '../../common/ParticipatingCountries/Countries';
 import Sponsors from '../Sponsors/Sponsors';
@@ -84,7 +84,7 @@ const teamArr1 = [
 const Org = () => {
   return (
     <div className='org'>
-      <BannerComp img={BannerImg} title={"Our team"}/>
+      <BannerComp img={BannerImg} title={"Our Team"}/>
       <Team title={"Our Executive Team"} teamArr={teamArr1}/>
       
       {/* <Team title={"Our Team"} teamArr={teamArr}/> */}
