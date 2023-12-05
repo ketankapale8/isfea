@@ -7,7 +7,7 @@ import {motion} from 'framer-motion';
 const MissionDescCommon = ({detailPageTitle , para1 , image , para2 , para3 , para4 , para5 , para6}) => {
   
   return (
-    <motion.div className='homedesccommon'
+    <div className='homedesccommon'
     initial={{x : -200}}
     animate={{x : -10}}
     transition={{ delay :0.3 , duration : 1 , type:'spring' , stiffness : 120}}
@@ -36,7 +36,7 @@ const MissionDescCommon = ({detailPageTitle , para1 , image , para2 , para3 , pa
 
             </div>
         </div>
-    </motion.div>
+    </div>
   )
 }
 

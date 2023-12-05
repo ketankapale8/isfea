@@ -9,7 +9,7 @@ import Four from '../../../assets/ai-gen-images/4.jpg';
 import Five from '../../../assets/ai-gen-images/5.jpg';
 import Six from '../../../assets/ai-gen-images/6.jpg';
 import Seven from '../../../assets/ai-gen-images/7.jpg';
-import Seventeen from '../../../assets/mission/17.jpg'
+import Seventeen from '../../../assets/mission/UpcomingEvents.jpg'
 import NewsLetter from '../../common/Newsletter/NewsLetter';
 
 
@@ -271,8 +271,8 @@ const keys = Array.from(Array(_items.length).keys());
     
   return (<>
   
-  <div className='upcomingEvents'>
     <BannerComp img={BannerImg} title={"Upcoming Events"}/>
+  <div className='upcomingEvents'>
     {w >  760 ? (
   //   <div className="carousel__wrap">
   //         <div className="carousel__inner">
@@ -306,7 +306,7 @@ const keys = Array.from(Array(_items.length).keys());
   //         </div>
   //   </div>
 
-  <div>
+  <div className='eventsContainer'>
       {upcomingEvents.map(item=>{
           return (
               <div className='upcomingEventsContainer'>

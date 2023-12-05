@@ -39,8 +39,9 @@
                 .top{
                     .missionImg{
                         width: 100%;
-                        height: 190px;
-                        object-fit: fill;
+                        height: 230px;
+                        object-fit: cover;
+                        // border-bottom: 1px solid lightgray;
                         // object-fit: cover;
                     }
                 }
@@ -90,19 +91,27 @@
                         text-align: justify;
                     }
 
-                    button{
-                        margin-top: 5px;
-                        margin-left: 30px;
-                        width: 120px;
-                        height: 40px;
-                        font-size: 0.9rem;
-                        // background-color: #ee334e;
-                        color: white;
-                        cursor: pointer;
-                        border: 0.6px solid transparent;
-                        border-radius: 14px;
-                        
+                    .buttonContainer{
+                        padding-top: 20px !important;
+
+                        button{
+                            // margin-top: 25px;
+                            margin-left: 30px;
+                            width: 120px;
+                            height: 40px;
+                            font-size: 1rem;
+                            color: white;
+                            font-family: 'Roboto Slab', serif;
+                            // background-color: black;
+                            // background-color: #ee334e;
+                            color: white;
+                            cursor: pointer;
+                            border: 0.6px solid transparent;
+                            border-radius: 14px;
+                            
+                        }
                     }
+
                 }
             }
         }

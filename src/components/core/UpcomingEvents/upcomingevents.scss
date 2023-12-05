@@ -8,6 +8,8 @@ $slide-widthJr: 10rem;
     height: auto;
     padding-bottom: 20px;
     z-index: 0;
+    background-color: white;
+    
     overflow-x: hidden;
     overflow-y: hidden;
     display: flex;
@@ -208,89 +210,93 @@ $slide-widthJr: 10rem;
     //         }
     //     }
     // }
-
-    .upcomingEventsContainer{
-        width: 750px;
-        height: auto;
-        border: 1px solid transparent;
-        flex-direction: column;
-        // align-items: center;
-        justify-content: center;
-        display: flex;
-        margin: 50px 20px;
-        padding-bottom: 10px;
-        border-radius: 20px;
-
-        .imgContainer{
-            width: 100%;
-            object-fit: cover;
-            height: 290px;
+    .eventsContainer{
+        
+        .upcomingEventsContainer{
+            width: 750px;
+            height: auto;
             border: 1px solid transparent;
-             border-radius: 20px;
-
-
-
-        }
-
-        .restItems{
+            
+            flex-direction: column;
+            // align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 50px 20px;
+            padding-bottom: 10px;
             border-radius: 20px;
-           gap: 0px;
-           display: flex;
-           flex-direction: column;
-           width: auto;
-           line-height: 20px;
-          align-items: start;
-
-           h2{
-            font-size: 2rem;
-            padding: 5px 0px;
-
-            position: relative;
-            display: inline-block;
-
-
-           }
-
-           h2::after {
-            content: '';
-            position: absolute;
-            width: 100%;
-            transform: scaleX(0);
-            border-radius: 15px;
-            height: 0.15em;
-            bottom: 0;
-            left: 0;
-            top: 40px;
-            background: linear-gradient(90deg, hsla(53, 84%, 74%, 1) 0%, hsla(336, 87%, 61%, 1) 49%, hsla(262, 81%, 71%, 1) 100%);
-            transform-origin: bottom right;
-            transition: transform 0.25s ease-out;
-          }
-          h2:hover::after {
-            transform: scaleX(1);
-            transform-origin: bottom left;
-          }
-
-           p{
-            font-size: 1.2rem;
-            line-height: 24px;
-            text-align: justify;
-           }
-
-           button{
-             width: auto;
-             border: 1px solid transparent;
-             background-color: #ee334e;
-             color: white;
-             border-radius: 5px;
-             font-size: 1.2rem;
-             height: 50px;
-             margin-top: 3px;
-             margin-bottom: 3px;
-           }
-
-
+    
+            .imgContainer{
+                width: 100%;
+                object-fit: cover;
+                height: 420px;
+                border: 1px solid transparent;
+                 border-radius: 20px;
+    
+    
+    
+            }
+    
+            .restItems{
+                border-radius: 20px;
+               gap: 0px;
+               display: flex;
+               flex-direction: column;
+               width: auto;
+               line-height: 20px;
+              align-items: start;
+    
+               h2{
+                font-size: 2rem;
+                padding: 5px 0px;
+    
+                position: relative;
+                display: inline-block;
+    
+    
+               }
+    
+               h2::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                border-radius: 15px;
+                height: 0.15em;
+                bottom: 0;
+                left: 0;
+                top: 40px;
+                background: linear-gradient(90deg, hsla(53, 84%, 74%, 1) 0%, hsla(336, 87%, 61%, 1) 49%, hsla(262, 81%, 71%, 1) 100%);
+                transform-origin: bottom right;
+                transition: transform 0.25s ease-out;
+              }
+              h2:hover::after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+              }
+    
+               p{
+                font-size: 1.2rem;
+                line-height: 24px;
+                text-align: justify;
+               }
+    
+               button{
+                 width: auto;
+                 border: 1px solid transparent;
+                 background-color: #ee334e;
+                 color: white;
+                 border-radius: 5px;
+                 font-size: 1.2rem;
+                 height: 50px;
+                 margin-top: 3px;
+                 margin-bottom: 3px;
+               }
+    
+    
+            }
         }
     }
+
     
 
 }
@@ -308,6 +314,7 @@ $slide-widthJr: 10rem;
 
 
         .upcomingEventsContainer{
+            
             width: 850px;
             height: auto;
             border: 1px solid transparent;

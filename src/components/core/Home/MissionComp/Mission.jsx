@@ -11,10 +11,11 @@ import Eleven from '../../../../assets/mission/11.jpg'
 import Twelve from '../../../../assets/mission/12.jpg'
 import Ten from '../../../../assets/mission/10.jpg'
 import Thirteen from '../../../../assets/mission/13.jpg';
-import Fourteen from '../../../../assets/mission/14.jpeg'
-import Fifteen from '../../../../assets/mission/15.jpeg'
-import Sixteen from '../../../../assets/mission/16.jpg'
-import Seventeen from '../../../../assets/mission/17.jpg'
+import Fourteen from '../../../../assets/mission/Mission.jpg'
+import Fifteen from '../../../../assets/mission/Vision1.jpg'
+import Sixteen from '../../../../assets/mission/UpcomingEvents.jpg'
+import Seventeen from '../../../../assets/mission/17.jpg';
+
 
 
 
@@ -31,7 +32,7 @@ export const Mission = () => {
     {
       title : "Our Mission",
       img : Fourteen,
-      color : "#ee334e",
+      color : "black",
       desc : "At ISFEA, our mission is to empower individuals to achieve excellence in both sports and education. We are dedicated to creating a harmonious alliance between the world of sports and the realm of education.",
       detailPage : [
         {
@@ -44,13 +45,13 @@ export const Mission = () => {
     },
     {
       title : "Vision",
-      img : Seventeen,
-      color : "#fcb131",
+      img : Fifteen,
+      color : "black",
       desc : "ISFEA envisions a world where sports and education are seamlessly integrated, creating a balanced and enriching environment for individuals to thrive. Our vision is to be the global leader in fostering a partnership between sports and education that empowers athletes to excel. ",
       detailPage : [
         {
           detailPageTitle : "Vision",
-          image : Seventeen,
+          image : Fifteen,
           para1 : "The vision of the International Sports Federation Education Alliances (ISFEA) is to become a globally recognized leader in advancing sports education for the betterment of athletes, coaches, and the entire sporting community. We envision a world where sports education is an integral part of every athlete's journey, fostering not only exceptional athletic performance but also personal growth and character development. ISFEA aspires to create a network of interconnected sports federations, educational institutions, and organizations that collaboratively design and implement cutting-edge educational programs, ensuring that athletes have access to the best education, training, and resources that empower them to excel in their chosen sports and in life.",
           para2 : "In this vision, ISFEA envisions an inclusive and diverse sports education landscape that transcends borders and barriers, where athletes of all backgrounds have equal opportunities to develop their skills and pursue their sporting dreams. Through our global partnerships and collaborative initiatives, we aim to create a future where sports education is a driving force for social and cultural cohesion, helping build bridges between communities and nations. ISFEA is committed to promoting lifelong learning and fostering a culture of excellence, integrity, and fairness in sports, ultimately contributing to a more enlightened, harmonious, and sports-loving world."
         }
@@ -58,13 +59,13 @@ export const Mission = () => {
     },
     {
       title : "Our Values",
-      img : Fifteen,
-      color : "#0081cb",
+      img : Sixteen,
+      color : "black",
       desc : "At the International Sports Federation for Education Alliances (ISFEA), our values are the cornerstone of our mission. We are dedicated to promoting excellence and inclusivity by seamlessly integrating sports and education, empowering individuals to achieve their full potential while upholding the highest standards of integrity. ",
       detailPage : [
         {
           detailPageTitle : "Values",
-          image : Fifteen,
+          image : Sixteen,
           para1 : "At ISFEA, we are guided by a set of values that define our commitment to the advancement of sports education and the betterment of the global sporting community. ",
           para2 : "Excellence: Ensuring that sports education programs and initiatives are of the highest quality and efficacy. Our vision for creating a premiere network of agencies and federations for the betterment of sports education across the world, is underpinned by our relentless focus on excellence in the development of athletes, coaches, and sports administration.",
           para3 : "Integrity: Promoting honesty, transparency, and ethical conduct. We are committed to fostering an environment where sports education is rooted in trust, fairness, and moral principles.",
@@ -80,7 +81,7 @@ export const Mission = () => {
   return (
     <div className='mission'>
         <div className="missionContainer">
-          <motion.div className="boxesContainer"
+          <div className="boxesContainer"
             initial={{x : -200}}
             animate={{x : -10}}
             transition={{ delay :0.3 , duration : 1 }}
@@ -93,18 +94,21 @@ export const Mission = () => {
                 </div>
                 <div className="bottom">
                   <div className="title">{item.title}</div>
-                  <p className="desc">{item.desc.slice(0,350)+ ''}</p>
-                  <Link style={{color:'inherit', textDecoration:'none'}} to="/values" state={{data:  item.detailPage}}>
-                    <button style={{backgroundColor:`${item.color}`, marginTop:'20px'}}>Read More..</button>
-                  
-                  </Link>
+                  <p className="desc">{item.desc.slice(0,220)+ '...'}</p>
+                  <div className="buttonContainer">
+                    <Link style={{color:'inherit', textDecoration:'none'}} to="/values" state={{data:  item.detailPage}}>
+                      <button style={{backgroundColor:`${item.color}`}}>Read More..</button>
+                    
+                    </Link>
+
+                  </div>
                 </div>
 
               </div>
             )
           })}
 
-          </motion.div>
+          </div>
         </div>
     </div>
   )

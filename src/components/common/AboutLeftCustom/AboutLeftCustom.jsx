@@ -26,7 +26,7 @@ let customLeftArr = [
 const Aboutleftcustom = () => {
   
   return (
-    <motion.div className='homeleftCustom'
+    <div className='homeleftCustom'
     initial={{x : -200}}
     animate={{x : -10}}
     transition={{ delay :0.3 , duration : 1 , type:'spring' , stiffness : 120}}
@@ -71,7 +71,7 @@ const Aboutleftcustom = () => {
             )
         })
     }
-    </motion.div>
+    </div>
   )
 }
 

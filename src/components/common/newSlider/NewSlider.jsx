@@ -69,7 +69,7 @@ const Slideshow = () => {
             ) : (
               <>
               <img 
-              style={{ width: '100% ' , height:'1200px', objectFit:'cover' }} 
+              style={{ width: '100% ' , height:'770px', objectFit:'cover'}} 
               src={fadeImage.img} />
               <h2 style={{position:'absolute', top: '60%' , left:'10%' , color:'white', fontSize:'2.5rem'}}>{fadeImage.caption}</h2>
               
