@@ -1,6 +1,8 @@
 .homedesccommon{
     width: auto;
     height: auto;
+    // padding-top: 150px;
+
     background-color: white;
 
     padding-bottom: 20px;
@@ -97,7 +99,7 @@
         
         .homeLeftDescContainer{
             display: flex;
-            flex-direction: row !important;
+            flex-direction: column !important;
             gap: 0px;
             
             // align-items: center;
@@ -113,11 +115,11 @@
                 // display: flex;
                 // align-items: center !important;
                 .imgContainer{
-                    width: 300px !important;
-                    height: 300px !important;
-                    object-fit: cover;
-                    border-top-left-radius: 120px;
-                border-bottom-right-radius: 120px;
+                    width: 500px !important;
+                    height: 400px !important;
+                    // object-fit: cover;
+                    border-top-left-radius: 0px;
+                border-bottom-right-radius: 0px;
                     // object-fit: contain;
                 }
             }

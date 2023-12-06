@@ -13,7 +13,7 @@ $secondary-text-color: #9EA6AE;
 $details: #DEE4F1;
 
 body {
-  font-family: 'Poppins', sans-serif;
+  // font-family: 'Poppins', sans-serif;
   font-size: 10px;
   background: $bg-color;
 }
@@ -24,6 +24,8 @@ body {
   font-size: 1.3rem !important ;
   padding-top: 6px;
   margin-right: 13px;
+        z-index: 1;
+
   width: 220px !important;
 
   height: 35px;
@@ -218,15 +220,15 @@ button:focus {
       padding: 0.8rem;
       transition: 1s;
 
-      // .questionTitle{
-      //   color: black;
-      //   cursor: pointer;
-      //   font-size: 0.6rem;
-      // position: relative;
-      // padding: 5px 5px;
+      .questionTitle{
+        color: black;
+        cursor: pointer;
+        font-size: 0.6rem;
+      position: relative;
+      padding: 5px 5px;
     
     
-      // }
+      }
 
       
 

@@ -165,7 +165,7 @@
             
                     // background-color: white;
                     border: 1px solid #838181;
-                    border: 1px solid transparent;
+                    // border: 1px solid transparent;
                     
                 }
     
@@ -183,9 +183,9 @@
                 
     
                 .subscribeBtn{
-                    width: 140px;
+                    width: auto;
                     height: 50px;
-                    background-color: #fcb131;
+                    // background-color: #fcb131;
                      color: white; 
                 border: 1px solid transparent;
                 border-radius: 10px;
@@ -205,8 +205,8 @@
         height: auto;
         padding-bottom: 20px;
         
-    
         .newsLetterContainer{
+            z-index: 0;
             width: auto;
             margin-top: 30px;
             padding-top: 40px;
@@ -288,9 +288,9 @@
                 
     
                 .subscribeBtn{
-                    width: 90px;
+                    width: auto;
                     height: 40px;
-                    background-color: #fcb131;
+                    // background-color: #fcb131;
                     color: white;
                 border: 1px solid transparent;
                 border-radius: 10px;

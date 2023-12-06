@@ -274,37 +274,7 @@ const keys = Array.from(Array(_items.length).keys());
     <BannerComp img={BannerImg} title={"Upcoming Events"}/>
   <div className='upcomingEvents'>
     {w >  760 ? (
-  //   <div className="carousel__wrap">
-  //         <div className="carousel__inner">
-  //             <button className="carousel__btn carousel__btn--prev" onClick={() => prevClick()}>
-  //                 <i className="carousel__btn-arrow carousel__btn-arrow--left" />
-  //             </button>
-  //             <div className="carousel__container">
-  //                 <ul className="carousel__slide-list">
-  //                     {items.map((pos, i) => (
-  //                         <CarouselSlideItem
-  //                             key={i}
-  //                             idx={i}
-  //                             pos={pos}
-  //                             activeIdx={activeIdx}
-  //                         />
-  //                     ))}
-  //                 </ul>
-  //             </div>
-  //             <button className="carousel__btn carousel__btn--next" onClick={() => nextClick()}>
-  //                 <i className="carousel__btn-arrow carousel__btn-arrow--right" />
-  //             </button>
-  //             {/* <div className="carousel__dots">
-  //                 {items.slice(0, length).map((pos, i) => (
-  //                     <button
-  //                         key={i}
-  //                         onClick={() => handleDotClick(i)}
-  //                         className={i === activeIdx ? 'dot active' : 'dot'}
-  //                     />
-  //                 ))}
-  //             </div> */}
-  //         </div>
-  //   </div>
+
 
   <div className='eventsContainer'>
       {upcomingEvents.map(item=>{
