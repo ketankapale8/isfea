@@ -17,23 +17,23 @@ const Team = ({title , teamArr}) => {
                 {teamArr.map((item, idx)=>{
                     return (
                         <>
-                        <motion.div className="teamMemberBox" key={idx}
+                        <div className="teamMemberBox" key={idx}
                             whileHover={{ scale : 1.1 , originX: 0}}
                         >
                             <img 
                                 
                             src={item.img} alt="" className='teamMemberImg' />
                             <div className="desc">
-                            <motion.h3
+                            <h3
                                 whileHover={{scale:1.05 , originX: 0, color:'#1f1957'}}
                                 transition={{type:'string', stiffness: 300}}
-                            className="teamMemberTitle">{item.title}</motion.h3>
+                            className="teamMemberTitle">{item.title}</h3>
                             <p className='position'>{item.position}</p>
                             {/* <p className='position'>{item.location}</p> */}
 
 
                             </div>
-                        </motion.div>
+                        </div>
                         
                         </>
                     )

@@ -72,8 +72,9 @@
         width: 100%;
         padding-top: 10px;
         margin-top: auto;
-        padding-bottom: 10px;
-        height: auto !important;
+        padding-bottom: auto;
+        height: auto;
+
     
         .teamContainer{
             display: flex;
@@ -82,8 +83,10 @@
             justify-content: center;
     
             .title{
+                padding-top: 20px;
                 font-size: 1.3rem;
                 font-weight: bold;
+
             }
     
             .teamArr{
@@ -120,11 +123,12 @@
                         align-items: center;
                         justify-content: center;
                         .teamMemberTitle{
-                            font-size: 1.1rem;
+                            font-size: 0.7rem;
                             font-weight: bold;
+                            
                         }
                         .position{
-                            font-size: 0.9rem;
+                            font-size: 0.7rem;
         
                         }
                     }

@@ -165,9 +165,10 @@
                         align-items: center;
                         .missionImg{
                             padding-right: 0%;
-                            align-self: center;
+                            // align-self: center;
                             width: 100%;
-                            height: 210px;
+                            height: 250px;
+                            object-fit: contain !important;
                             // object-fit: cconover;
                         }
                     }
@@ -242,7 +243,7 @@
                 flex-direction: column;
                 align-items: center;
                 gap: 0px;
-                padding-top: 0px;
+                padding-top: 20px;
                 .boxes{
                     width: auto;
                     height: auto;
@@ -260,8 +261,8 @@
                             padding-right: 0%;
                             align-self: center;
                             width: 100%;
-                            height: 260px;
-                            // object-fit: cconover;
+                            height: 290px;
+                            object-fit: cover;
                         }
                     }
     
