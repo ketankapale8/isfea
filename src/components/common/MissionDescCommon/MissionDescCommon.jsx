@@ -4,7 +4,16 @@ import {motion} from 'framer-motion';
 // import {useInView} from 'react-intersection-observer'
 
 
-const MissionDescCommon = ({detailPageTitle , para1 , image , para2 , para3 , para4 , para5 , para6}) => {
+const MissionDescCommon = ({detailPageTitle , para1 , 
+  image , para2 , para3 , para4 , 
+  para5 , para6,
+  p2title
+
+  
+
+}) => {
+
+  let title = <h4>{p2title}</h4>
   
   return (
     <div className='homedesccommon'

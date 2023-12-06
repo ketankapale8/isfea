@@ -57,9 +57,6 @@ const Aboutleftcustom = () => {
                                         <li className='desc'>{ul.desc5}</li>
                                         <li className='desc'>{ul.desc6}</li>
 
-                                       
-
-
                                     </ul>
                                 </>
                             )

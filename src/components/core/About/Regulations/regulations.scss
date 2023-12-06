@@ -15,7 +15,7 @@
 
         border: 1px solid transparent;
         border-radius: 5px;
-        margin-left: 5rem;
+        margin-left: 5rem;  
         font-family: 'Roboto Slab', serif;
         font-weight: 600;
         text-transform: uppercase;
@@ -96,11 +96,15 @@ $color: #0cf;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         button{
             margin-top: 50px;
             width: 400px;
-            height: 50px;
+            height: 55px;
             font-size: 1.4rem;
+        margin-left: -1rem !important;   
+
+
             border: 1px solid transparent;
             border-radius: 20px;
             background-color: #1f1957;
@@ -191,7 +195,7 @@ $color: #0cf;
             // background-color: #0d6efd;
             color: white;
             transition: all .3s;
-            margin-left: 0rem !important;
+            margin-left: -1rem !important;
   position: relative;
   overflow: hidden;
             cursor: pointer;
