@@ -69,7 +69,7 @@ $nav-item-nb       : 6;
 
 		// background: linear-gradient(90deg, hsla(53, 84%, 74%, 1) 0%, hsla(336, 87%, 61%, 1) 49%, hsla(262, 81%, 71%, 1) 100%);
 		content: '';
-		transform: skewX(15deg) translateX(-95%) !important;
+		transform: skewX(15deg) translateX(-97%) !important;
 		transform-origin: bottom left;
 		will-change: transform;
 		transition: transform .5s $timing-function;
@@ -92,7 +92,7 @@ $nav-item-nb       : 6;
 
         
         .link_text{
-        color: linear-gradient(139deg, rgba(255,132,77,1) 0%, rgba(222,69,76,1) 100%) !important; 
+            color: linear-gradient(139deg, rgba(255,132,77,1) 0%, rgba(222,69,76,1) 100%) !important; 
 
             // color: white;
             

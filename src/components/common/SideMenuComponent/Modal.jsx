@@ -299,6 +299,7 @@ const routes = [
                   // activeClassName="active"
                 >
                   <motion.div
+                        style={{color: "linear-gradient( 139deg, rgba(255,132,77,1) 0%, rgba(222,69,76,1) 100%)"}}
                         initial={{y : -200}}
                         animate={{y : -20}}
                         transition={{ delay :0.3 , duration : 1 , type:'spring' , stiffness : 120}}
