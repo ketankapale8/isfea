@@ -96,6 +96,8 @@
         .homeLeftContainer{
             display: flex;
             flex-direction: column !important;
+            align-items: center;
+            justify-content: center;
             gap: 0px;
             
             // align-items: center;
@@ -105,7 +107,7 @@
             padding: 0px 0px;
     
             .left{
-                padding-left: 5%;
+                // padding-left: 5%;
 
                 width: auto !important;
                 // display: flex;
