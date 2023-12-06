@@ -113,7 +113,9 @@
             padding-left: 20px;
             padding-right: 20px;
             height: 250px;
-            background-color: #5d5dff;
+        background-color: #d3d1d1;
+
+            // background-color: #5d5dff;
             border: 1px solid transparent;
             border-radius: 40px;
             display: flex;
@@ -158,14 +160,19 @@
                 .emailBox{
                     width: 250px;
                     height: 50px;
-                    color: white;
-                    background-color: #4b4acf;
+                    color: black;
+                    background-color: transparent;
+            
+                    // background-color: white;
+                    border: 1px solid #838181;
                     border: 1px solid transparent;
                     
                 }
     
                 .emailBox::placeholder{
-                    color: white;
+                    // color: white;
+                color: black;
+
                     padding-left: 20px;
                 }
     
@@ -209,7 +216,9 @@
             padding-right: 20px;
             height: auto;
             padding-bottom: 20px;
-            background-color: #5d5dff;
+        background-color: #d3d1d1;
+
+            // background-color: #5d5dff;
             border: 1px solid transparent;
             border-radius: 40px;
             display: flex;
@@ -255,14 +264,19 @@
                 .emailBox{
                     width: 120px;
                     height: 40px;
-                    color: white;
-                    background-color: #4b4acf;
-                    border: 1px solid transparent;
+                    color: black;
+                    background-color: transparent;
+            
+                    // background-color: white;
+                    border: 1px solid #838181;
+                    // border: 1px solid transparent;
                     
                 }
     
                 .emailBox::placeholder{
-                    color: white;
+                    // color: white;
+                color: black;
+
                     padding-left: 10px;
                     border: 1px solid transparent;
                 }

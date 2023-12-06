@@ -88,7 +88,7 @@ const FAQ = () => {
          )
        }
   return (
-    <div>
+    <>
          <div className='container'>
       <h3 className="heading" onClick={()=>Toggle()} >FAQs</h3>
       {showFaq && (
@@ -97,7 +97,7 @@ const FAQ = () => {
       </section> 
       )}     
     </div>
-    </div>
+    </>
   )
 }
 
