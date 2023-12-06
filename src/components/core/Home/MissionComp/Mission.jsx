@@ -102,7 +102,7 @@ export const Mission = () => {
                   <p className="desc">{item.desc.slice(0,220)+ '...'}</p>
                   <div className="buttonContainer">
                     <Link style={{color:'inherit', textDecoration:'none'}} to="/values" state={{data:  item.detailPage}}>
-                      <button style={{backgroundColor:`${item.color}`}}>Read More..</button>
+                      <button className='readmoreBtn' style={{backgroundColor:`${item.color}`}}>Read More..</button>
                     
                     </Link>
 

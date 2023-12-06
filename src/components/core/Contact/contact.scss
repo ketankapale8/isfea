@@ -28,6 +28,8 @@
         .contactLeftContainer{
             display: flex;
             flex-direction: row;
+            align-items: center;
+            justify-content: center;
             gap: 50px;
             margin: 10px 200px;
             padding: 20px 150px;
@@ -109,7 +111,7 @@
                     
                     }
                     .btn{
-                        margin-bottom: 20px;
+                        margin-bottom: 10px;
                         width: 90px;
                         height: 40px;
                         border: 1px solid transparent;
