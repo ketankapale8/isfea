@@ -115,9 +115,9 @@
                 .imgContainer{
                     width: 300px !important;
                     height: 300px !important;
-                    object-fit: cover;
-                    border-top-left-radius: 120px;
-                border-bottom-right-radius: 120px;
+                    object-fit: contain;
+                    border-top-left-radius: 0px;
+                border-bottom-right-radius: 0px;
                     // object-fit: contain;
                 }
             }
