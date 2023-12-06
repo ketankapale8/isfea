@@ -327,7 +327,7 @@ const routes = [
               );
             })}
           </section>
-      <FontAwesomeIcon color='#ffff' size='2x' icon={faClose} onClick={closeModal}/>
+      <FontAwesomeIcon color='#ffff' size='4x' icon={faClose} onClick={closeModal}/>
 
     </motion.div>
     </>
