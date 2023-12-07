@@ -101,7 +101,7 @@
 
 }
 
-@media (min-width : 1081px) and (max-width :1800px){
+@media (min-width : 1331px) and (max-width :1800px){
     .newsletter{
         width: auto;
         height: 400px;
@@ -159,7 +159,106 @@
                 gap: 13px;
     
                 .emailBox{
-                    width: 250px;
+                    width: 210px;
+                    height: 50px;
+                    color: black;
+                    background-color: transparent;
+            
+                    // background-color: white;
+                    border: 1px solid #838181;
+                    // border: 1px solid transparent;
+                    
+                }
+    
+                .emailBox::placeholder{
+                    // color: white;
+                color: black;
+
+                    padding-left: 20px;
+                }
+    
+                .emailBox:focus{
+                    outline: none;
+                }
+    
+                
+    
+                .subscribeBtn{
+                    width: auto;
+                    height: 50px;
+                    // background-color: #fcb131;
+                     color: white; 
+                border: 1px solid transparent;
+                border-radius: 10px;
+                    font-size: 1.4rem;
+    
+                }
+            }
+        }
+    
+    }
+
+}
+
+@media (min-width : 1081px) and (max-width :1330px){
+    .newsletter{
+        width: auto;
+        height: 400px;
+    
+        .newsLetterContainer{
+            width: 73%;
+            // margin-left: 70px;
+            // margin-right: 70px;
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 250px;
+        background-color: #d3d1d1;
+
+            // background-color: #5d5dff;
+            border: 1px solid transparent;
+            border-radius: 40px;
+            display: flex;
+            flex-direction: column !important;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: relative;
+            z-index: 1;
+            // .newsletterpng{
+            //     position: absolute;
+            //     top: 0px;
+            //     width: 320px;
+            //     height: 100px;
+            //     left: 70%;
+            //     z-index: -999;
+    
+            // }
+    
+            .left{
+                display: flex;
+                flex-direction: column;
+                gap: 0px;
+                line-height: 20px;
+    
+                .newsLetterTitle{
+                    font-size: 2rem;
+                    line-height: 30px;
+                    color: black
+                }
+                .newsLetterDesc{
+                    font-size: 1.2rem;
+                    color: black
+    
+                }
+            }
+    
+            .right{
+                display: flex;
+                flex-direction: row;
+                gap: 13px;
+    
+                .emailBox{
+                    width: 210px;
                     height: 50px;
                     color: black;
                     background-color: transparent;
