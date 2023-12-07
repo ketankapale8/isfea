@@ -72,7 +72,7 @@ form {
 
 .faq {
   margin: 3rem 0;
-  padding-left: 10rem;
+  // padding-left: 10rem;
 }
 .question-wrapper {
   width: 55rem;
@@ -193,14 +193,16 @@ button:focus {
     padding-left: 0px !important;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    // align-items: center;
+    // justify-content: center;
     text-align:start;
 
     // text-align: center;
 
     .heading{
-  margin-left: 0px;
+      padding-left: 0px !important;
+  margin-left: 15%;
+  width: auto;
 
       // color: $primary-text-color;
   font-size: 2.2rem;
@@ -211,8 +213,8 @@ button:focus {
     }
 
     .faq{
-     margin: 5rem 5rem; 
-     padding-left: 0rem !important;
+     margin:0rem 10rem; 
+     padding-left: -0rem !important;
 
 
      .question-wrapper{
@@ -270,6 +272,7 @@ button:focus {
       // color: $primary-text-color;
   font-size: 1.2rem;
   margin-left: 0px;
+  // margin-right: 0px !important;
   font-weight: 600;
   margin-bottom: 1rem;
   text-align: center !important;

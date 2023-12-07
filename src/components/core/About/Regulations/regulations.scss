@@ -90,19 +90,26 @@
 
 $color: #0cf;
 
-@media (min-width : 861px) and (max-width :1800px){
+@media (min-width : 761px) and (max-width :1800px){
 
     .regulationsMain{
         display: flex;
         flex-direction: column;
+    padding-left: 0px !important;
+
+    // align-items: center;
+    // justify-content: center;
+    text-align:start;
         // align-items: center;
         // justify-content: center;
         button{
-            margin-top: 0px;
+            margin-top: 20px;
+  margin-right: 58%;
+
             width: 400px;
             height: 55px;
             font-size: 1.4rem;
-        margin-left: -1rem !important;   
+        // margin-left: -1rem !important;   
 
 
             border: 1px solid transparent;
@@ -178,7 +185,7 @@ $color: #0cf;
     }
 }
 
-@media (min-width : 320px) and (max-width :860px){
+@media (min-width : 320px) and (max-width :760px){
 
     .regulationsMain{
         display: flex;
