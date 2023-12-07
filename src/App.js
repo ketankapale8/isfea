@@ -15,6 +15,7 @@ import CommonMissionVision from './components/common/CommonMissionVision/CommonM
 import UpcomingEvents from './components/core/UpcomingEvents/UpcomingEvents.jsx';
 import ScrollToTop from './components/common/ScrollToTop/ScrollToTop.jsx';
 import { Toaster } from 'react-hot-toast';
+import CommonValues from './components/common/CommonValues/CommonValues.jsx';
 
 function App() {
   let [w , setW] = useState(window.innerWidth)
@@ -44,6 +45,8 @@ function App() {
           <Route path='/news' element={<News/>}/>
           <Route path='/contactus' element={<Contact/>}/>
           <Route path='/values' element={<CommonMissionVision/>}/>
+          <Route path='/values1' element={<CommonValues/>}/>
+
           <Route path='/upcomingevents' element={<UpcomingEvents/>}/>
         </Routes>
         <Toaster/>

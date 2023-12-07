@@ -33,6 +33,8 @@ export const Mission = () => {
       title : "Our Mission",
       img : Fourteen,
       color : "black",
+      href : "/values",
+
       desc : "At ISFEA, our mission is to empower individuals to achieve excellence in both sports and education. We are dedicated to creating a harmonious alliance between the world of sports and the realm of education.",
       detailPage : [
         {
@@ -47,6 +49,8 @@ export const Mission = () => {
       title : "Vision",
       img : Fifteen,
       color : "black",
+      href : "/values",
+
       desc : "ISFEA envisions a world where sports and education are seamlessly integrated, creating a balanced and enriching environment for individuals to thrive. Our vision is to be the global leader in fostering a partnership between sports and education that empowers athletes to excel. ",
       detailPage : [
         {
@@ -61,6 +65,7 @@ export const Mission = () => {
       title : "Our Values",
       img : Sixteen,
       color : "black",
+      href : "/values1",
       desc : "At the International Sports Federation for Education Alliances (ISFEA), our values are the cornerstone of our mission. We are dedicated to promoting excellence and inclusivity by seamlessly integrating sports and education, empowering individuals to achieve their full potential while upholding the highest standards of integrity. ",
       detailPage : [
         {
@@ -72,11 +77,11 @@ export const Mission = () => {
           p4title : "",
           p5title : "",
           p6title : "",
-          para2 : "Excellence: Ensuring that sports education programs and initiatives are of the highest quality and efficacy. Our vision for creating a premiere network of agencies and federations for the betterment of sports education across the world, is underpinned by our relentless focus on excellence in the development of athletes, coaches, and sports administration.",
-          para3 : "Integrity: Promoting honesty, transparency, and ethical conduct. We are committed to fostering an environment where sports education is rooted in trust, fairness, and moral principles.",
-          para4 : "Inclusivity: Providing equal opportunities in sports education for individuals of all backgrounds, regardless of their age, gender, race, or socioeconomic status. We believe that improving access  for all, to the world of sports, is the only way to create a vibrant and globally inclusive sports culture. ",
-          para5 : "Lifelong Learning: Empowering your journey by making continuous learning a cornerstone of your personal and professional growth in the sporting community. Our commitment to the ongoing development of athletes, coaches, and administrators allows us to foster a community of informed and empowered individuals.",
-          para6 : "Collaboration: Achieving success together. We recognize the power of working together with federations, educational institutions, and other key constituents in the sporting community. We can elevate the standard of sports education on a global scale by coming together to innovate and facilitate the exchange of ideas and knowledge."
+          para2 : ": Ensuring that sports education programs and initiatives are of the highest quality and efficacy. Our vision for creating a premiere network of agencies and federations for the betterment of sports education across the world, is underpinned by our relentless focus on excellence in the development of athletes, coaches, and sports administration.",
+          para3 : ": Promoting honesty, transparency, and ethical conduct. We are committed to fostering an environment where sports education is rooted in trust, fairness, and moral principles.",
+          para4 : ": Providing equal opportunities in sports education for individuals of all backgrounds, regardless of their age, gender, race, or socioeconomic status. We believe that improving access  for all, to the world of sports, is the only way to create a vibrant and globally inclusive sports culture. ",
+          para5 : ": Empowering your journey by making continuous learning a cornerstone of your personal and professional growth in the sporting community. Our commitment to the ongoing development of athletes, coaches, and administrators allows us to foster a community of informed and empowered individuals.",
+          para6 : ": Achieving success together. We recognize the power of working together with federations, educational institutions, and other key constituents in the sporting community. We can elevate the standard of sports education on a global scale by coming together to innovate and facilitate the exchange of ideas and knowledge."
 
 
         }
@@ -101,7 +106,7 @@ export const Mission = () => {
                   <div className="title">{item.title}</div>
                   <p className="desc">{item.desc.slice(0,220)+ '...'}</p>
                   <div className="buttonContainer">
-                    <Link style={{color:'inherit', textDecoration:'none'}} to="/values" state={{data:  item.detailPage}}>
+                    <Link style={{color:'inherit', textDecoration:'none'}} to={`${item.href}`} state={{data:  item.detailPage}}>
                       <button className='readmoreBtn' style={{backgroundColor:`${item.color}`}}>Read More..</button>
                     
                     </Link>
