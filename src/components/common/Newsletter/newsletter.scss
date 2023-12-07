@@ -1,10 +1,12 @@
 .newsletter{
     width: auto;
     height: 300px;
-    margin-top: 10px;
+    // margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
+
 
     .newsLetterContainer{
         width: 67%;
@@ -105,13 +107,15 @@
     .newsletter{
         width: auto;
         height: 400px;
+        background-color: white;
+
     
         .newsLetterContainer{
             width: 75%;
             // margin-left: 70px;
             // margin-right: 70px;
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
             height: 250px;
         background-color: #d3d1d1;
 
@@ -122,7 +126,7 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            gap: 50px;
+            gap: 30px !important;
             position: relative;
             z-index: 1;
             // .newsletterpng{
@@ -148,7 +152,7 @@
                 }
                 .newsLetterDesc{
                     font-size: 1.2rem;
-                    color: black
+                    color: black;
     
                 }
             }
@@ -185,7 +189,7 @@
     
                 .subscribeBtn{
                     width: auto;
-                    height: 50px;
+                    height: 52px;
                     // background-color: #fcb131;
                      color: white; 
                 border: 1px solid transparent;
@@ -204,6 +208,8 @@
     .newsletter{
         width: auto;
         height: 400px;
+        background-color: white;
+
     
         .newsLetterContainer{
             width: 73%;
@@ -351,8 +357,9 @@
 
                 }
                 .newsLetterDesc{
-                    font-size: 1.2rem;
-                    color: black
+                    font-size: 1.1rem;
+                    color: black;
+                    text-align: center;
 
     
                 }
@@ -391,14 +398,14 @@
     
                 .subscribeBtn{
                     width: auto;
-                    height: 40px;
+                    height: 42px;
                     // background-color: #fcb131;
                     color: white;
                 border: 1px solid transparent;
                 border-radius: 10px;
                     
                     border: none;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
     
                 }
             }

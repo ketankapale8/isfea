@@ -95,10 +95,10 @@ $color: #0cf;
     .regulationsMain{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        // align-items: center;
+        // justify-content: center;
         button{
-            margin-top: 50px;
+            margin-top: 0px;
             width: 400px;
             height: 55px;
             font-size: 1.4rem;
