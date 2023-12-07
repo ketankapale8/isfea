@@ -45,7 +45,7 @@ const Aboutleftcustom = () => {
                         transition={{type:'string', stiffness: 300}}
                         className="title">{title}</motion.div> */}
                         <p className="desc">{item.desc}</p>
-                        <p className="desc">{item.subdesc}</p>
+                        <p className="desc" style={{textAlign:'left'}}>{item.subdesc}</p>
                         {item.uls.map(ul=>{
                             return (
                                 <>
