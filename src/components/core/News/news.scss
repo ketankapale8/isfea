@@ -65,7 +65,7 @@
     }
 }
 
-@media (min-width : 861px) and (max-width :1800px){
+@media (min-width : 1201px) and (max-width :1800px){
     .news{
         width: auto;
         height: auto;
@@ -104,6 +104,80 @@
                 background-color: #ebebeb;
                 padding-left: 20px;
                 padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: start;
+                gap: 4px;
+                cursor: pointer;
+    
+                .title{
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                }
+    
+                .desc{
+                    font-size: 1rem;
+                }
+    
+                hr{
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                }
+            }
+    
+            // .newsBox:hover{
+            //     background-color: #0d6efd;
+            //     color: white;
+    
+            //     hr{
+            //         color: white;
+            //     }
+            // }
+        }
+    }
+
+}
+
+@media (min-width : 861px) and (max-width :1200px){
+    .news{
+        width: auto;
+        height: auto;
+        // padding-top: 90px;
+        padding-bottom: 20px;
+        // padding-top: 60px;
+        z-index: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+    
+        .newsTitle{
+
+            font-weight: bold;
+            padding-left: 40%;
+            font-size: 1.3rem;
+        }
+    
+        .newsContainer{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 0px;
+
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+    
+            .newsBox{
+                width: 550px;
+                height: auto;
+                padding-bottom: 20px;
+                border: 1px solid transparent;
+                border-radius: 30px;
+                background-color: #ebebeb;
+                padding-left: 10px;
+                padding-right: 10px;
                 padding-top: 10px;
                 padding-bottom: 10px;
                 text-align: start;
