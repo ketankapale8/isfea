@@ -46,7 +46,6 @@ function App() {
           <Route path='/contactus' element={<Contact/>}/>
           <Route path='/values' element={<CommonMissionVision/>}/>
           <Route path='/values1' element={<CommonValues/>}/>
-
           <Route path='/upcomingevents' element={<UpcomingEvents/>}/>
         </Routes>
         <Toaster/>
