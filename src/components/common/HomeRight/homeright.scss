@@ -242,10 +242,11 @@
     
             .left{
                 width: auto !important;
-                // display: flex;
-                // align-items: center !important;
+                display: flex;
+                 align-items: center !important;
+                 justify-content: center    ;
                 .imgContainer{
-                    padding-left: 15%;
+                    // padding-left: 15%;
                     width: 300px !important;
                     height: 300px !important;
                     // object-fit: cover;
