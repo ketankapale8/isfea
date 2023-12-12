@@ -34,6 +34,10 @@
         border: 1px solid black;
         border-radius: 30px;
         background-color: #ebebeb;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
     
         .regulationsTitle{
@@ -98,13 +102,13 @@ $color: #0cf;
         flex-direction: column;
     padding-left: 0px !important;
 
-    align-items: start;
     // justify-content: center;
     text-align:start;
     // align-items: center;
     // justify-content: center;
+    align-items: start;
     .regulationBtn{
-            margin-left: 15%;
+        margin-left: 15%;
             margin-top: 20px;
   padding-left: 0px !important;
 
@@ -127,6 +131,8 @@ $color: #0cf;
         }
     
         .regulations{
+            margin-left: 10% !important;
+            // margin-left: 25%;
             margin-top: 40px;
             width: 80%;
             height: auto;
@@ -135,6 +141,10 @@ $color: #0cf;
             margin-right: 30px;
             border: 1px solid black;
             border-radius: 30px;
+            display: flex;
+            flex-direction: column !important;
+            align-items: center !important;
+            justify-content: center;
             background-color: #ebebeb;
     
         
@@ -251,6 +261,11 @@ $color: #0cf;
             border: 1px solid black;
             border-radius: 30px;
             background-color: #ebebeb;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
     
         
             .regulationsTitle{
