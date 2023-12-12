@@ -6,7 +6,7 @@ import Two from '../../../assets/aboutus/4.jpg';
 
 let customLeftArr = [
     {
-        desc : " The International Sports Federation for Education Alliances (ISFEA) is a platform where institutions and agencies across the world can unite to build innovative ecosystems for developing athletes, coaches, and administrators. We are committed to growing a network of interconnected sports federations, educational institutions, and organizations that can collaboratively design and implement cutting-edge educational programs and practices.",
+        desc : " The International Sports Federation for Education Alliances (ISFEA) is a platform where institutions and agencies across the world can unite to build innovative ecosystems for developing athletes, coaches, and administrators. We seek to grow a network of interconnected sports federations, educational institutions, and organizations that can collaboratively design and implement cutting-edge educational programs and practices.",
         subdesc : "ISFEA  is committed to achieving its vision through the following initiatives:",
         img : Two,
         uls : [
@@ -17,7 +17,7 @@ let customLeftArr = [
                 desc3 : "Partner with local governments and sports authorities to promote social, environmental and economic benefits of building a sports ecosystem. ",
                 desc4 : "Work with sports fitness and medicine professionals to increase availability and promote natural health across the industry.",
                 desc5: "Enhance the usage of analytics to develop industry insight for continued relevance of ISFEA events across its segments and to build relevant communities.",
-                desc6: 'Build a global community of professionals in the sports education '
+                desc6: 'Build a global community of professionals in sports education '
             }
         ]
 

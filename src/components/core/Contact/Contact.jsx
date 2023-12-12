@@ -7,6 +7,7 @@ import {motion} from 'framer-motion';
 import NewsLetter from '../../common/Newsletter/NewsLetter';
 import emailjs from "@emailjs/browser";
 import toast from 'react-hot-toast';
+import validator from 'validator';
 
 // import BannerComp1 from '../../common/BannerComp1/BannerComp';
 const Contact = () => {
@@ -16,6 +17,7 @@ const Contact = () => {
   const [query , setQuery] = useState('');
   const [subject , setSubject] = useState('');
   const [open, setOpen] = useState(false)
+  const [message, setMessage] = useState(" ");
 
 
   const [loading, setLoading] = useState(false);
@@ -82,6 +84,16 @@ const Contact = () => {
     )
   }
 
+  function handleEmail(event) {
+    let new_Email = event.target.value;
+    setEmail(new_Email);
+    if (!validator.isEmail(new_Email)) {
+      setMessage("Please, enter a valid email!");
+    } else {
+      setMessage("");
+    }
+  }
+
 
   
   return (
@@ -110,10 +122,11 @@ const Contact = () => {
 
               </div>
           
+              <div style = {{ color: "red" }}> {message} </div>
               <div className="items">
               <div className='formItems'>Email:</div>
               <input 
-                value={email} onChange={(e)=> setEmail(e.target.value)} 
+                value={email} onChange={(e)=> handleEmail(e)} 
               />
 
               </div>

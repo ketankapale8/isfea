@@ -57,7 +57,7 @@ function sendEmailInfo()
                        Switzerland 
 
                       </p>
-                      <p onClick={()=>sendEmail()} className='email'>info@isfea.org</p>
+                      {/* <p onClick={()=>sendEmail()} className='email'>info@isfea.org</p> */}
                     </div>
                     <div className="footerDesc">
                         {/* <img className='icons' src={six}/>

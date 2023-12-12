@@ -40,7 +40,7 @@ const Home = () => {
 
       <div style={{display:'flex', flexDirection:'column' , alignItems:'center' , justifyContent:'center'}}>
         <HomeLeft 
-        title={"Promoting Athletic and Academic Excellence"} desc={"ISFEA envisions a world where sports and education are seamlessly intertwined, ensuring that individuals not only excel in their chosen sports but also receive a well-rounded education"}
+        title={"Promoting Athletic and Academic Excellence"} desc={"International Sports Federation For Education Alliances (ISFEA) envisions a world where sports and education are seamlessly intertwined, ensuring that individuals not only excel in their chosen sports but also receive a well-rounded education"}
         img={One}
         desc1={"Through its programs, ISFEA exemplifies the belief that true excellence lies not only in athletic achievement but in the synergy of physical prowess and intellectual growth, providing a pathway for the next generation of athletes to become leaders in their chosen fields and society as a whole."}
         />

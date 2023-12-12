@@ -3,12 +3,16 @@ import './newsletter.scss';
 import newsletterPng from '../../../assets/newsletter/newsletter.png';
 import emailjs from "@emailjs/browser";
 import toast from 'react-hot-toast';
+import validator from 'validator';
+
 
 const NewsLetter = () => {
   useEffect(() => emailjs.init("zAsaPnZRcrfcOV3K8"), []);
   const [name , setName] = useState('');
   const [email , setEmail] = useState('');
   const [query , setQuery] = useState('');
+  const [message, setMessage] = useState(" ");
+
 
   const [loading, setLoading] = useState(false);
 
@@ -38,6 +42,16 @@ const NewsLetter = () => {
       setLoading(false);
     }
   };
+
+  function handleEmail(event) {
+    let new_Email = event.target.value;
+    setEmail(new_Email);
+    if (!validator.isEmail(new_Email)) {
+      setMessage("Please, enter a valid email!");
+    } else {
+      setMessage("");
+    }
+  }
   return (
     <div className='newsletter'>
         <div className="newsLetterContainer">
@@ -47,9 +61,14 @@ const NewsLetter = () => {
                 <p className="newsLetterDesc">Join our newsletter to get the latest updates.</p>
 
             </div>
+            <div style={{display:'flex', flexDirection:'column'}}>
+            <div style = {{ color: "red" }}> {message} </div>
             <div className="right">
-                <input type="email" className='emailBox' placeholder='Enter your email' value={email} onChange={(e)=> setEmail(e.target.value)} />
+
+                <input type="email" className='emailBox' placeholder='Enter your email' value={email} onChange={(e)=> handleEmail(e)} />
                 <button className='subscribeBtn' onClick={handleSubmit}>Subscribe</button>
+            </div>
+
             </div>
 
         </div>

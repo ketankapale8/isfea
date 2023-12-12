@@ -17,11 +17,11 @@ import four from '../../../assets/VectorImages/Four.jpg'
 const fadeImages = [
   {
     img: one,
-    caption: 'Unlocking Milestones. '
+    caption: 'Unleashing true potential '
   },
   {
     img: two,
-    caption: 'Achieving New Heights.'
+    caption: 'Achieving new milestones'
   },
   {
     img: three,
